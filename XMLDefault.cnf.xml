@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Default> 
+  <callManagerGroup> 
+    <members>  
+      <member priority="0">  
+        <callManager>  
+          <ports>  
+            <ethernetPhonePort>2000</ethernetPhonePort>  
+            <mgcpPorts>  
+              <listen>2427</listen>  
+              <keepAlive>2428</keepAlive>  
+            </mgcpPorts>  
+          </ports>  
+          <processNodeName>10.17.77.3</processNodeName>  
+        </callManager>  
+      </member>  
+      <member priority="1">  
+        <callManager>  
+          <ports>  
+            <ethernetPhonePort>2000</ethernetPhonePort>  
+            <mgcpPorts>  
+              <listen>2427</listen>  
+              <keepAlive>2428</keepAlive>  
+            </mgcpPorts>  
+          </ports>  
+          <processNodeName>10.17.77.5</processNodeName>  
+        </callManager>  
+      </member>  
+    </members>  
+  </callManagerGroup>  
+  <loadInformation8 model="IP Phone 7940">P0030801SR02</loadInformation8>  
+  <loadInformation7 model="IP Phone 7960">P0030801SR02</loadInformation7> 
+  <loadInformation906 model="IP Phone 7906">SIP11.8-5-3S</loadInformation906>
+  <loadInformation911 model="IP Phone 7911">SIP11.8-5-3S</loadInformation911>
+  <loadInformation941 model="IP Phone 7941">SIP41.8-5-2SR1S</loadInformation941>
+  <loadInformation961 model="IP Phone 7961">SIP41.8-5-2SR1S</loadInformation961>
+
+  <authenticationURL></authenticationURL>  
+  <directoryURL></directoryURL>  
+  <idleURL></idleURL>  
+  <informationURL></informationURL>  
+  <messagesURL></messagesURL>  
+  <servicesURL></servicesURL>  
+
+</Default> 

@@ -1,0 +1,54 @@
+<CiscoIPPhoneRingList>
+<Ring>
+      <DisplayName>Ring-ring-ring</DisplayName>
+      <FileName>ringtones/ring.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>I-am-ringing</DisplayName>
+      <FileName>ringtones/I_am_ringing.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Cisco-acoustic</DisplayName>
+      <FileName>ringtones/Cisco-acoustic.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Cisco-human</DisplayName>
+      <FileName>ringtones/Cisco-human.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Cisco-standard</DisplayName>
+      <FileName>ringtones/Cisco-standard.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Cisco-symph</DisplayName>
+      <FileName>ringtones/Cisco-symph.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Cisco-synth</DisplayName>
+      <FileName>ringtones/Cisco-synth.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Cisco-techno</DisplayName>
+      <FileName>ringtones/Cisco-techno.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Nokia-Alway-Here</DisplayName>
+      <FileName>ringtones/Nokia_Always_Here.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Nokia-N8-theme-song</DisplayName>
+      <FileName>ringtones/Nokia_N8_theme_song.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Samsung-original-tune</DisplayName>
+      <FileName>ringtones/Samsung_original_tune.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Samsung-remix</DisplayName>
+      <FileName>ringtones/Samsung_remix.raw</FileName>
+</Ring>
+<Ring>
+     <DisplayName>Kickass-Soundtrack</DisplayName>
+      <FileName>ringtones/kickass.raw</FileName>
+</Ring>
+</CiscoIPPhoneRingList> 
