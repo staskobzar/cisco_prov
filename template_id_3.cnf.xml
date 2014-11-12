@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CONFIG>
+<reginfo>
+    <reg
+%%plcm_reg_line%%
+    />
+    <msg>
+      <msg.mwi
+       %%plcm_mwi%%
+      >
+      </msg.mwi>
+    </msg>
+
+    <attendant attendant.reg="1" attendant.ringType="ringer1" attendant.uri="">
+    %%plcm_blf%%
+    </attendant>
+
+</reginfo>
+<bg>
+    <bg.color>
+        <bg.color.bm>
+         <bg.color.selection bg.color.selection="2,2" />
+         <bg.color.bm.2.name bg.color.bm.1.name="http://belenos.etsmtl.ca/assets/ETS_logo_vvx310.jpg" />
+         <bg.color.bm.2.name bg.color.bm.2.name="http://belenos.etsmtl.ca/assets/ETS_logo_vvx410.png" />
+        </bg.color.bm>
+    </bg.color>
+    <bg.VVX400>
+      <bg.VVX400.color.selection bg.VVX400.color.selection="2,2" />
+      <bg.VVX400.color.bm.2.name bg.VVX400.color.bm.2.name="http://belenos.etsmtl.ca/assets/ETS_logo_vvx410.png" />
+    </bg.VVX400>
+    <bg.VVX300>
+      <bg.VVX300.color.selection bg.VVX300.color.selection="2,2" />
+      <bg.VVX300.color.bm.2.name bg.VVX300.color.bm.2.name="http://belenos.etsmtl.ca/assets/ETS_logo_vvx310.jpg" />
+    </bg.VVX300>
+    <bg.VVX310>
+      <bg.VVX310.color.selection bg.VVX300.color.selection="2,2" />
+      <bg.VVX310.color.bm.2.name bg.VVX300.color.bm.2.name="http://belenos.etsmtl.ca/assets/ETS_logo_vvx310.jpg" />
+    </bg.VVX310>
+    <bg.hiRes>
+      <bg.hiRes.color>
+        <bg.hiRes.color.bm.2.name bg.hiRes.color.bm.2.name="http://belenos.etsmtl.ca/assets/ETS_logo_vvx410.png" />
+        <bg.hiRes.color.bm.2.em.name bg.hiRes.color.bm.2.em.name="http://belenos.etsmtl.ca/assets/ETS_logo_vvx410.png" />
+      </bg.hiRes.color>
+    </bg.hiRes>
+</bg>
+</CONFIG>

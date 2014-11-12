@@ -43,4 +43,6 @@
   <messagesURL></messagesURL>  
   <servicesURL></servicesURL>  
 
+  <sshUserId>admin</sshUserId>  
+  <sshPassword>admin</sshPassword> 
 </Default> 
