@@ -33,8 +33,11 @@
   <loadInformation307 model="Cisco IP Phone 7911">SCCP11.9-4-2-1S</loadInformation307>
   <loadInformation906 model="IP Phone 7906">SIP11.8-5-3S</loadInformation906>
   <loadInformation911 model="IP Phone 7911">SIP11.8-5-3S</loadInformation911>
-  <loadInformation941 model="IP Phone 7941">SIP41.8-5-2SR1S</loadInformation941>
-  <loadInformation961 model="IP Phone 7961">SIP41.8-5-2SR1S</loadInformation961>
+  <loadInformation115 model="CP-7941G">SIP41.9-4-2-1S</loadInformation115>
+  <loadInformation309 model="Cisco 7941G-GE">SIP41.9-4-2-1S</loadInformation309>
+  <loadInformation30018 model="CP-7961">SIP41.9-4-2-1S</loadInformation30018>
+  <loadInformation308 model="Cisco 7961G-GE">SIP41.9-4-2-1S</loadInformation308>
+  <loadInformation961 model="IP Phone 7961">SIP41.9-4-2-1S</loadInformation961>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  
