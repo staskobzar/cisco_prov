@@ -17,3 +17,7 @@ template.
 Default user locale: French_France.
 Default network locale: United_States.
 
+## Localization
+
+For more information how to install and setup l10n for different languages see check another project we have:
+https://github.com/staskobzar/copsgn2tar
