@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<phrases>
+<trkLocaleName>French_France</trkLocaleName>
+<trkBaseClearcaseVersion></trkBaseClearcaseVersion>
+<trkTranslationVersion></trkTranslationVersion>
+	<phrase i="198" t="Aucune ligne disponible pour l&apos;interception d&apos;appels"/>
+	<phrase i="197" t="Transfert externe restreint"/>
+	<phrase i="196" t="Aucune bande passante disponible pour l&apos;interception d&apos;appels"/>
+	<phrase i="195" t="Aucun appel disponible pour l&apos;interception d&apos;appels"/>
+	<phrase i="194" t="Emplacement de parcage indisponible"/>
+	<phrase i="193" t="Déconnecté du groupement"/>
+	<phrase i="192" t="Groupmt"/>
+	<phrase i="191" t="AGrpIntr"/>
+	<phrase i="190" t="Expir. durée max. mise en attente"/>
+	<phrase i="189" t="Expir. de la durée d&apos;appel max."/>
+	<phrase i="188" t="ModeVid."/>
+	<phrase i="187" t="Bande passante vidéo indispon."/>
+	<phrase i="186" t="Erreur sécurité"/>
+	<phrase i="185" t="Numéro non configuré"/>
+	<phrase i="184" t="IDAM réussi"/>
+	<phrase i="183" t="Imposs. de joindre les appels"/>
+	<phrase i="182" t="Imposs. d&apos;effect. le transfert"/>
+	<phrase i="181" t="InsConf"/>
+	<phrase i="180" t="Rvoi Im"/>
+	<phrase i="179" t="ListConf"/>
+	<phrase i="178" t="Sélect."/>
+	<phrase i="177" t="TrnsDir"/>
+	<phrase i="176" t="IDAM"/>
+	<phrase i="175" t="QRT"/>
+	<phrase i="174" t="Trafic élevé, réessayez"/>
+	<phrase i="173" t="Service inactif"/>
+	<phrase i="172" t="Récup. appel parqué"/>
+	<phrase i="171" t="Aucun n° de parcage disponible"/>
+	<phrase i="170" t="Type d&apos;équipement incompatible"/>
+	<phrase i="169" t="Insertion existante"/>
+	<phrase i="168" t="Échec d&apos;insertion"/>
+	<phrase i="167" t="Inser."/>
+	<phrase i="166" t="Congestion réseau, re-routage"/>
+	<phrase i="165" t="Rappel"/>
+	<phrase i="164" t="RvAss"/>
+	<phrase i="163" t="NPD"/>
+	<phrase i="162" t="TrnsfVM"/>
+	<phrase i="161" t="Obsrv"/>
+	<phrase i="160" t="Récup"/>
+	<phrase i="159" t="Rediriger"/>
+	<phrase i="158" t="Message Vocal"/>
+	<phrase i="157" t="SupDerA"/>
+	<phrase i="156" t="Numéro inconnu"/>
+	<phrase i="155" t="Bande passante insuffisante"/>
+	<phrase i="154" t="Confidentiel(le)"/>
+	<phrase i="153" t="N° de parcage"/>
+	<phrase i="152" t="Conférence"/>
+	<phrase i="151" t="Err. Discordance"/>
+	<phrase i="150" t="Err. Inconnue"/>
+	<phrase i="149" t="Err. Limite dépassée"/>
+	<phrase i="148" t="Err. Base de données"/>
+	<phrase i="147" t="Err. DBConfig"/>
+	<phrase i="146" t="Err. Pas de licence"/>
+	<phrase i="145" t="Touche non active"/>
+	<phrase i="144" t="Nbre participants dépassé"/>
+	<phrase i="143" t="Aucune info. participant"/>
+	<phrase i="142" t="Déjà en conférence"/>
+	<phrase i="141" t="Participant conf. incorrect"/>
+	<phrase i="140" t="Imp. mettre en att. cntr. prnc"/>
+	<phrase i="139" t="Aucun pont de conférence"/>
+	<phrase i="138" t="Impos. d&apos;établir la conférence"/>
+	<phrase i="137" t="Renvoyé vers"/>
+	<phrase i="136" t="Vous avez un message vocal"/>
+	<phrase i="135" t="Échec temp"/>
+	<phrase i="134" t="Primaire seulement"/>
+	<phrase i="133" t="Appel parqué sur"/>
+	<phrase i="132" t="Entrer un numéro"/>
+	<phrase i="131" t="Utilisé à distance"/>
+	<phrase i="130" t="Appel en cours"/>
+	<phrase i="129" t="Parcage d&apos;appels"/>
+	<phrase i="128" t="Transfert d&apos;appel"/>
+	<phrase i="127" t="Appel en attente"/>
+	<phrase i="126" t="Ligne utilisée"/>
+	<phrase i="125" t="Occupé"/>
+	<phrase i="124" t="Connecté"/>
+	<phrase i="123" t="De "/>
+	<phrase i="122" t="Sonnerie"/>
+	<phrase i="121" t="Raccroché"/>
+	<phrase i="120" t="Décroché"/>
+	<phrase i="119" t="Vos options actuelles"/>
+	<phrase i="118" t="GrpIntr"/>
+	<phrase i="117" t="Intrcpt"/>
+	<phrase i="116" t="MultConf"/>
+	<phrase i="115" t="Joindre"/>
+	<phrase i="114" t="Parquer"/>
+	<phrase i="113" t="Conf."/>
+	<phrase i="112" t="Info"/>
+	<phrase i="111" t="Répond."/>
+	<phrase i="110" t="Reprend."/>
+	<phrase i="109" t="Fin App."/>
+	<phrase i="108" t="&lt;&lt;"/>
+	<phrase i="107" t="RvNRep"/>
+	<phrase i="106" t="RenvOcc"/>
+	<phrase i="105" t="RenvTt"/>
+	<phrase i="104" t="Trnsfer."/>
+	<phrase i="103" t="Attente"/>
+	<phrase i="102" t="NvAppel"/>
+	<phrase i="101" t="Bis"/>
+</phrases>

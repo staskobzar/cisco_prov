@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Default> 
+  <callManagerGroup> 
+    <members>  
+      <member priority="0">  
+        <callManager>  
+          <ports>  
+            <ethernetPhonePort>2000</ethernetPhonePort>  
+            <mgcpPorts>  
+              <listen>2427</listen>  
+              <keepAlive>2428</keepAlive>  
+            </mgcpPorts>  
+          </ports>  
+          <processNodeName>10.130.12.66</processNodeName>  
+        </callManager>  
+      </member>  
+      <member priority="1">  
+        <callManager>  
+          <ports>  
+            <ethernetPhonePort>2000</ethernetPhonePort>  
+            <mgcpPorts>  
+              <listen>2427</listen>  
+              <keepAlive>2428</keepAlive>  
+            </mgcpPorts>  
+          </ports>  
+          <processNodeName>10.17.77.5</processNodeName>  
+        </callManager>  
+      </member>  
+    </members>  
+  </callManagerGroup>  
+  <loadInformation307 model="SCCP: Cisco IP Phone 7911">SCCP11.9-4-2-1S</loadInformation307>
+
+  <authenticationURL></authenticationURL>  
+  <directoryURL></directoryURL>  
+  <idleURL></idleURL>  
+  <informationURL></informationURL>  
+  <messagesURL></messagesURL>  
+  <servicesURL></servicesURL>  
+
+  <sshUserId>cisco</sshUserId>  
+  <sshPassword>cisco</sshPassword> 
+</Default> 

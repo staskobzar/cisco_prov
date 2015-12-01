@@ -1,0 +1,98 @@
+<CiscoIPPhoneRingList>
+	<Ring>
+		<DisplayName>Analog Synth 1</DisplayName>
+		<FileName>Analog1.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Analog Synth 2</DisplayName>
+		<FileName>Analog2.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Are You There 1</DisplayName>
+		<FileName>AreYouThere.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Are You There 2</DisplayName>
+		<FileName>AreYouThereF.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Bass</DisplayName>
+		<FileName>Bass.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Chime</DisplayName>
+		<FileName>Chime.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Classic Ring 1</DisplayName>
+		<FileName>Classic1.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Classic Ring 2</DisplayName>
+		<FileName>Classic2.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Clock Shop</DisplayName>
+		<FileName>ClockShop.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Drums 1</DisplayName>
+		<FileName>Drums1.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Drums 2</DisplayName>
+		<FileName>Drums2.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Film Score</DisplayName>
+		<FileName>FilmScore.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Harp Synth</DisplayName>
+		<FileName>HarpSynth.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Jamaica</DisplayName>
+		<FileName>Jamaica.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Koto Effect</DisplayName>
+		<FileName>KotoEffect.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Music Box</DisplayName>
+		<FileName>MusicBox.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Piano 1</DisplayName>
+		<FileName>Piano1.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Piano 2</DisplayName>
+		<FileName>Piano2.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Pop</DisplayName>
+		<FileName>Pop.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Pulse 1</DisplayName>
+		<FileName>Pulse1.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Saxophone 1</DisplayName>
+		<FileName>Sax1.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Saxophone 2</DisplayName>
+		<FileName>Sax2.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>Vibe</DisplayName>
+		<FileName>Vibe.raw</FileName>
+	</Ring>
+	<Ring>
+		<DisplayName>24H Chrono</DisplayName>
+		<FileName>CTU24.raw</FileName>
+	</Ring>
+</CiscoIPPhoneRingList>
