@@ -28,7 +28,7 @@
       </member>  
     </members>  
   </callManagerGroup>  
-  <loadInformation307 model="SCCP: Cisco IP Phone 7911">SCCP11.9-4-2-1S</loadInformation307>
+  <loadInformation307 model="SIP: Cisco IP Phone 7911">SIP11.8-5-4S</loadInformation307>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  

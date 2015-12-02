@@ -23,12 +23,13 @@
               <keepAlive>2428</keepAlive>  
             </mgcpPorts>  
           </ports>  
-          <processNodeName>10.17.77.5</processNodeName>  
+          <processNodeName>FAILOVER_NODE_IP</processNodeName>  
         </callManager>  
       </member>  
     </members>  
   </callManagerGroup>  
   <loadInformation307 model="SCCP: Cisco IP Phone 7911">SCCP11.9-4-2-1S</loadInformation307>
+  <loadInformation30007  model="SCCP: Cisco 7912">CP7912080004SCCP080108A</loadInformation30007>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  

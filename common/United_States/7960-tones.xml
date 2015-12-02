@@ -1,0 +1,25 @@
+<tones>
+<tone c1="30831" i1="-2032" c2="30467" i2="-1104" d="2" t="ringing">
+<part m="on" t="2000"/>
+<part m="off" t="4000"/>
+<repeat c="65535"/>
+</tone>
+<tone c1="30467" i1="-1104" c2="28959" i2="-1404" d="2" t="reorder">
+<part m="on" t="250"/>
+<part m="off" t="250"/>
+<repeat c="65535"/>
+</tone>
+<tone c1="30467" i1="-1104" c2="28959" i2="-1404" d="2" t="busy">
+<part m="on" t="500"/>
+<part m="off" t="500"/>
+<repeat c="65535"/>
+</tone>
+<tone c1="30743" i1="-1384" c2="29780" i2="-1252" d="2" t="odial">
+<part m="on" t="65535"/>
+<repeat c="65535"/>
+</tone>
+<tone c1="30831" i1="-2032" c2="31538" i2="-814" d="2" t="idial">
+<part m="on" t="65535"/>
+<repeat c="65535"/>
+</tone>
+</tones>
