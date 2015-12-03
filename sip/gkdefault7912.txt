@@ -1,0 +1,25 @@
+#txt
+# -----------------------------------------------------------------------------
+# This file "gkdefault.txt" is provided as a convenience for upgrading the
+# Cisco 7912G IP Phone with minimal effort.  
+#
+# If changes are made to this file, you must run 
+#
+#         cfgfmt -tsip_ptag.dat gkdefault.txt gkdefault.cfg
+#
+# again to create a new profile and place it in the TFTP directory.
+#
+# If you plan to upgrade just one phone, you can copy gkdefault.cfg to
+# gk<MAC>, where <MAC> is the MAC address of the target phone, such
+# as gk001122334455.
+#
+# The phone will try to download gk<mac> first, then gkdefault.cfg
+# if corresponding gk<MAC> is not found on the TFTP server.
+# -----------------------------------------------------------------------------
+
+upgradecode:3,0x601,0x0400,0x0100,0.0.0.0,69,0x060111a,CP7912080000SIP060111A.sbin
+
+# Set the GUI/Web config password to 1234; the password must NOT be 0 
+# (disabled) if configuring via the phone's web interface is desired.
+
+UIPassword:1234

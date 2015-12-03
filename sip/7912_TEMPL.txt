@@ -1,0 +1,25 @@
+#txt
+# This is sample provisioning file which is supposed to be converted
+# to binary by Cisco utility:
+# ./cfgfmt.linux -tsip_ptag.dat THIS_TEMPLATE_FILE.txt gk<MAC>
+# For more information check Readme7912.txt and sipexample7912.txt
+dhcp:1
+Proxy:REALM_DOMAIN
+OutBoundProxy:PROXY_IP
+UID:7175
+PWD:PASSWD_HERE
+TimeZone:20
+NTPIP:NTP_SERVER_IP_HERE
+DNS1IP:DNS_SERVER_IP_HERE
+SIPRegInterval:7200
+SIPRegOn:1
+DisplayName:Bar Foo
+ShortName:B. Foo 7175
+TimeFormat:H:i
+DoNotDisturb:0
+CallWaiting:1
+AttendedTransfer:1
+BlindTransfer:1
+Conference:1
+CallPrefGuiShow:0xffffffff
+CallPrefGuiSet:0xffffffff

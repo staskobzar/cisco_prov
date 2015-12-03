@@ -1,0 +1,1456 @@
+#txt
+# -----------------------------------------------------------------------------
+#             Example Profile for Cisco 7905G/7912G IP Phones (SIP)
+# -----------------------------------------------------------------------------
+#
+# IMPORTANT:  File must begin with "#txt" (without the quotes) for the 
+#             formating tool (cfgfmt.exe) to treat it as a text file.
+#
+# NOTE: 1. A hash (#) at the beginning of the line is a comment.  The
+#          formatting tool ignores any line beginning with the token.
+#
+#       2. All parameter/value pairs are OPTIONAL; however, they may be
+#          needed nevertheless for the phone to function properly 
+#          if no prior value had been programmed.
+#
+#       3. Parameter values can be one of the following:
+#
+#           a. Alphanumeric string           
+#                 Ex:  SIP-4-Ever$#, 1234, #012-34la$!-
+#
+#           b. Numeric digit string          
+#                 Ex:  593, 960135, 19690489
+#
+#           c. Array of comma-separated short integer        
+#                 Ex:  {395,65534,20,32768,105}  (without brackets)
+#   
+#           d. IP address                    
+#                 Ex:  192.168.2.170, 64.15.243.3
+#
+#           e. Extended IP address -- IP address with Port           
+#                 Ex:  192.168.2.170.9001, 174.10.232.53.10364
+#
+#           f. Boolean       
+#                 Ex:  0 or 1
+#
+#           g. Bitmap value -- unsigned hex integer (32-bit)
+#                 Ex:  0x00060400, 0x125f0431
+#
+#           h. Integer (32-bit) 
+#                 Ex:  2147483647, 56, 65342 
+#
+# ============================= UI Parameters =================================
+# -----------------------------------------------------------------------------
+#   Parameter:  UIPassword 
+#
+#        Type:  Alphanumeric string  (9 characters max) 
+#
+# Description:  Control access to the web page and some protected phone menus.
+#               If set to non-zero, then every access to the web page will
+#               require the value of UIPassword being entered.
+#
+#     Default:  0 = Web interface is restricted to viewing of device 
+#                   information and network configuration and statistics.
+#                   Parameter changes are not allowed via the web interface.
+
+UIPassword:0
+
+# ====================== Firmware Upgrade Parameters ==========================
+# -----------------------------------------------------------------------------
+#   Parameter:  upgradecode
+#
+# Description:  Special parameter to provide information on how to upgrade 
+#               firmware code.
+#
+#      Syntax:  upgradecode:3,hw_type,0x0400,0x0100,tftp_ip_addr,69,image_id,
+#                           image_filename
+#
+#     Options:  hw_type
+#                 - IP Phone hardware type  
+#               
+#                   Use     For
+#                   -----   --------------------
+#                   0x501   Cisco 7905G IP phone  
+#                   0x601   Cisco 7912G IP phone
+#
+#               tftp_ip_addr 
+#                 - TFTP server IP address where the image_filename is located
+#
+#               image_id 
+#                 - A unique 32-bit integer value different from upgrade to 
+#                   upgrade.  A simple way to derive this 32-bit integer value 
+#                   is to use the build date on the image file name and 
+#                   prepending it with "0x" (e.g. if the image_filename is 
+#                   CP7905010100SIP030807A.zup, then the build date is 030807A,
+#                   and the image_id is 0x030807A) 
+#
+#               image_filename  
+#                 - Firmware upgrade image file name.  The file name has the 
+#                   following syntax:
+#
+#                      CP79{XX}{MM}{NN}{PP}{protocol}{yymmdd}{a-f}.{ext}
+#
+#                            XX - IP phone model number
+#                            MM - Major version number 
+#                            NN - Minor version number 
+#                            PP - Build version number
+#                      protocol - h323, sip or sccp
+#                        yymmdd - Year, month, day
+#                           a-f - Build letter 
+#                           ext - File extension name - .zup or .sbin
+#        
+#                   yymmdd and a-f together form the build date of the image.
+#
+#    Examples:  For Cisco 7905G IP phone 
+#               ------------------------
+#
+#               upgradecode:3,0x501,0x0400,0x0100,192.168.2.170,69,
+#                           0x030807a,CP7905010100SIP030807A.zup
+#
+#               For Cisco 7912G IP phone
+#               ------------------------
+#
+#               upgradecode:3,0x601,0x0400,0x0100,192.168.2.170,69,
+#                           0x030807a,CP7912010100SIP030807A.sbin
+#
+#        NOTE:  The default values listed below for a Cisco 7905G IP phone
+#               will not trigger any upgrade.  Please make sure the correct
+#               HARDWARE TYPE is specified for your Cisco IP phone.
+
+upgradecode:3,0x501,0x0400,0x0100,0.0.0.0,69,0,none
+
+# ========================== Logo Upgrade Parameter ===========================
+# -----------------------------------------------------------------------------
+#   Parameter:  upgradelogo  
+#
+# Description:  Special parameter to provide information on how to upgrade the
+#               logo on the main LCD screen
+# 
+#      Syntax:  upgradelogo:<image_id>,<tftp_ip_addr>,<logo_filename>
+#
+#     Options:  image_id 
+#                 - A unique number that is logically associated with the logo
+#                   file and must be incremented for each new logo upgrade;
+#                   the factory logo is assigned '1'.  Upgrading the firmware
+#                   resets this value to '1'.
+#
+#               tftp_ip_addr 
+#                 - TFTP server IP address where logo_filename is located
+#
+#               logo_filename 
+#                 - Name of logo file 
+#
+#     Example:  upgradelogo:4,192.168.3.105,logo.dat
+#
+#        NOTE:  The default values listed below will not trigger any upgrade.
+
+#upgradelogo:0,0,none
+
+# ===================== Network Configuration Parameters ======================
+# -----------------------------------------------------------------------------
+#   Parameter:  Dhcp  
+#
+#        Type:  Boolean
+#
+#     Options:  1 = Use DHCP to obtain IP, route, netmask, DNS, NTP, TFTP, etc.
+#               0 = Don't use DHCP, instead use hard coded parameter values for
+#                   IP, route, netmask, DNS, NTP, TFTP, etc.
+
+dhcp:1
+
+# -----------------------------------------------------------------------------
+#  Parameters:  staticIp
+#               staticRoute 
+#               staticSubNetMask
+#
+#        Type:  IP address
+#
+# Description:  If Dhcp parameter is set to 0, use these parameters to
+#               assign a static IP address, route IP address, and subnet mask
+
+StaticIp:192.168.2.253
+StaticRoute:192.168.2.9
+StaticNetMask:255.255.255.0
+
+# ======================= SIP Configuration Parameters ========================
+# -----------------------------------------------------------------------------
+#   Parameter:  Proxy
+#
+#        Type:  Alphanumeric string  (31 characters max)
+#
+# Description:  IP address or domain name of SIP proxy server 
+
+Proxy:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  Proxy2
+#
+#        Type:  Alphanumeric string  (31 characters max)
+#
+# Description:  Second SIP proxy server 
+#
+#        NOTE:  FOR USE WITH CISCO CALL MANAGER ONLY
+
+#Proxy2:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  Proxy3
+#
+#        Type:  IP address
+#
+# Description:  Third SIP proxy server 
+#
+#        NOTE:  FOR USE WITH CISCO CALL MANAGER ONLY
+
+#Proxy3:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  Proxy4
+#
+#        Type:  IP address
+#
+# Description:  Fourth SIP proxy server 
+#
+#        NOTE:  FOR USE WITH CISCO CALL MANAGER ONLY
+
+#Proxy4:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  AltProxyTimeOut
+#
+#        Type:  Integer  (0 - 4294967295 seconds)
+#
+# Description:  Timeout in seconds for switching from backup proxy to primary
+#               proxy.  If this parameter is set to 0, the phone will remain
+#               with the backup proxy indefinitely until it fails.
+
+AltProxyTimeOut:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  UID
+#
+#        Type:  Alphanumeric string  (31 characters max)
+#
+# Description:  User ID (i.e. phone number) for the line
+
+UID:123
+
+# -----------------------------------------------------------------------------
+#   Parameter:  PWD
+#
+#        Type:  Alphanumeric string  (31 characters max) 
+#
+# Description:  Password used for authentication
+
+PWD:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  LoginID
+#
+#        Type:  Alphanumeric string  (51 characters max)
+#
+# Description:  User ID used for authentication, if different from UID.
+
+LoginID:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  UseLoginID
+#
+#        Type:  Boolean 
+#
+# Description:  Indicate user ID to use for authentication
+#
+#     Options:  0 = Use UID as user ID for authentication 
+#               1 = Use LoginID as user ID for authentication 
+
+UseLoginID:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  SIPPort
+#
+#        Type:  Integer  (1 - 65535)
+#
+# Description:  Port to listen for incoming SIP requests.  
+#               The same port is used for sending outgoing SIP requests.
+
+SIPPort:5060
+
+# -----------------------------------------------------------------------------
+#   Parameter:  SIPRegInterval
+#
+#        Type:  Integer  (1 - 86400 seconds)
+#
+# Description:  Interval between registration renewal
+
+SIPRegInterval:3600
+
+# -----------------------------------------------------------------------------
+#   Parameter:  SIPRegInterval2
+#
+#        Type:  Integer  (1 - 4294967295 seconds)
+#
+# Description:  Interval between Keep-Alives sent to backup SIP proxies.
+#
+#        NOTE:  FOR USE WITH CISCO CALL MANAGER ONLY
+
+#SIPRegInterval2:120
+
+# -----------------------------------------------------------------------------
+#   Parameter:  SIPRegOn
+#
+#        Type:  Boolean
+#
+# Description:  Enable or disable SIP registration
+#
+#     Options:  0 = Disable registration
+#               1 = Enable registration 
+
+SIPRegOn:1
+
+# -----------------------------------------------------------------------------
+#   Parameter:  MAXRedirect
+#
+#        Type:  Integer  (0 - 10)
+#
+# Description:  Maximum number of times to try redirection 
+#
+#        Note:  If set to greater than 10, default is 10 times.
+
+MaxRedirect:5
+
+# -----------------------------------------------------------------------------
+#   Parameter:  OutBoundProxy 
+#
+#        Type:  IP address or alphanumeric string  (31 characters max)
+#
+# Description:  Outbound proxy server that processes all outbound SIP requests.
+#               It can be an IP address with or without a port parameter such
+#               as 123.123.110.45, 123.123.110.45.5060, or 123.123.110.45:5061,
+#               or URL such as sip.cisco.com, sip.komodo.cisco.com:5061. For
+#               IP address, a '.' or ':' can be used to delimit a port 
+#               parameter.  For URL, a ':' must be used to delimit the port
+#               parameter.
+#
+#        Note:  If this parameter is configured, all SIP requests will be
+#               sent to this outbound proxy and then forwarded to the
+#               destination specified in the Request-URI of the SIP message.
+#               An outbound proxy may or may not be the same SIP proxy server.
+
+OutBoundProxy:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  RxCodec
+#
+#        Type:  Integer  (1 - 3)
+#
+# Description:  Preferred receiving audio codec
+#
+#     Options:  1 -- g711a
+#               2 -- g711u
+#               3 -- g729a
+
+RxCodec:2
+
+# -----------------------------------------------------------------------------
+#   Parameter:  TxCodec
+#
+#        Type:  Integer  (1 - 3)
+#
+# Description:  Preferred transmitting audio codec
+#
+#     Options:  1 -- g711a
+#               2 -- g711u
+#               3 -- g729a
+
+TxCodec:2
+
+# -----------------------------------------------------------------------------
+#   Parameter:  MsgRetryLimits
+#
+#        Type:  Bitmap
+#
+# Description:  Specify number of times SIP requests and final responses to
+#               INVITE request are retransmitted to the current SIP user agent.
+#
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                0-3   Number of times to retransmit SIP requests, except
+#                      those listed below, and final response to INVITE
+#                          Range:  0-15
+#                        Default:  0 = NOTIFY retransmitted 6 times
+#                                      PRACK restransmitted 5 times
+#                                      Response to INVITE retransmitted 7 times
+#
+#                4-7   Number of times to retransmit REGISTER request 
+#                        Range:  0-15     Default:  0 (= 10 times)
+#
+#                8-11  Number of times to retransmit INVITE request
+#                        Range:  0-15     Default:  0 (= 2 times)
+#
+#               12-15  Number of times to retransmit BYE request
+#                        Range:  0-15     Default:  0 (= 4 times)
+#
+#               16-19  Number of times to retransmit CANCEL request
+#                        Range:  0-15     Default:  0 (= 4 times)
+#
+#               20-23  Number of times to retransmit REFER request
+#                        Range:  0-15     Default:  0 (= 5 times)
+#
+#               24-31  RESERVED
+
+MsgRetryLimits:0x00000000
+
+# ====================== Audio Configuration Parameters =======================
+# -----------------------------------------------------------------------------
+#   Parameter:  AudioMode
+#
+#        Type:  bitmap value 
+#
+# Description:  Used for controlling or fine-tuning certain audio features 
+# 
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                 0    Silence Suppression
+#                        0 = Disable silence suppression 
+#                       *1 = Enable silence suppression
+#
+#                1-3   RESERVED.  Must be set to 0.
+#
+#                4-5   DTMF Transmission Method
+#                        0 = Always inband
+#                       *1 = Negotiated via SDP
+#                        2 = Always out-of-band
+# 
+#                6-31  RESERVED.  Must be set to 0.
+#
+#               Defaults are marked with *.
+
+AudioMode:0x00000011
+
+# ------------------------------------------------------------------------
+#   Parameter:  NumTxFrames
+#
+#        Type:  Integer  (1 - 6)
+#
+# Description:  Transmit frames per packet.
+#               
+#        Note:  G.711 and G.729 frame sizes are 10 ms per frame.
+#
+#               Cisco recommends that you use only the default value 2.
+
+NumTxFrames:2
+
+# ------------------------------------------------------------------------
+#   Parameter:  ConnectMode
+#
+#        Type:  bitmap value 
+#
+# Description:  Connection mode of the protocol used
+#
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                 0    Send INVITE requests (due to call forwarding, call 
+#                      transfer, etc.) to the URL specified in the 
+#                      corresponding header value, i.e. 302's Contact, 
+#                      Refer-To, etc.
+#                      
+#                        *0 = Disable.  INVITE is sent via local proxy.
+#                         1 = Enable.  INVITE is sent via specified URL.
+# 
+#                1-3   RESERVED.  Must be set to 0.
+#
+#                 4    Include +sip.instance=... in REGISTER's Contact:
+#                        0 = Disable
+#                       *1 = Enable
+#
+#                5-15  RESERVED.  Must be set to 0.
+#
+#                 16   Registration Removal Prior To Re-Registration
+#                        *0 = Disable
+#                         1 = On power up, "Contact: *" is used to remove all
+#                             registrations.  On subsequent registration cycles,
+#                             "Contact: <CURRENT_SIP_URL>;expires=0" is used.
+#
+#                 17   RESERVED.  Must be set to 0.
+#
+#                 18   SIP Proxy Type 
+#                        *0 = Standard or no SIP proxy
+#                         1 = Cisco Call Manager
+# 
+#                 19   IP Ringback and Early Media
+#                        *0 = Do not send ringback tone to the caller 
+#                         1 = Send ring back tone to the caller
+# 
+#                 20   Include "action=proxy" in REGISTER request 
+#                        *0 = Disable
+#                         1 = Enable
+#
+#                 21   Include "action=redirect" in REGISTER request 
+#                        *0 = Disable
+#                         1 = Enable
+# 
+#                 22   Process "received=" tag in VIA header to automatically
+#                      detect if phone is behind a NAT and use specified WAN IP
+#                        *0 = Disable
+#                         1 = Enable 
+#
+#                 23   RESERVED.  Must be set to 0.
+#
+#                 24   Include RTP statistics in BYE and 200 response to BYE
+#                        *0 = Disable
+#                         1 = Enable
+# 
+#               25-31  RESERVED.  Must be set to 0.
+#
+#               Defaults are marked with *.
+#
+#        Note:  Setting both bits 20 & 21 is forbidden; setting both to 0
+#               causes the phone to not include the "action" parameter in 
+#               the REGISTER request and leaves it up to the proxy server 
+#               to decide what action to take.
+
+ConnectMode:0x00000010
+
+# -----------------------------------------------------------------------------
+#   Parameter:  TimeZone
+#
+#        Type:  Integer  (0 - 24)
+#
+# Description:  Timezone offset from GMT for time-stamping incoming calls with 
+#               the local time (for caller-id display, etc.)
+#
+#               Use the following table to select the correct TimeZone value.
+#
+#                    0 = GMT         9 = GMT + 9      18 = GMT - 7
+#                    1 = GMT + 1    10 = GMT + 10     19 = GMT - 6
+#                    2 = GMT + 2    11 = GMT + 11     20 = GMT - 5
+#                    3 = GMT + 3    12 = GMT + 12     21 = GMT - 4
+#                    4 = GMT + 4    13 = GMT - 12     22 = GMT - 3
+#                    5 = GMT + 5    14 = GMT - 11     23 = GMT - 2
+#                    6 = GMT + 6    15 = GMT - 10     24 = GMT - 1
+#                    7 = GMT + 7    16 = GMT - 9
+#                    8 = GMT + 8    17 = GMT - 8
+#
+#        Type:  Integer ( -720 thru -60, 60 thru 780)
+#
+# Description:  Timezone offset (in minutes) from GMT used for cities/countries 
+#               that fall on 30 and 45 minutes zones.
+#
+#               Use the following table to select the correct TimeZone value.
+#
+#                  210 = GMT + 3:30    Tehran
+#                  270 = GMT + 4:30    Kabul
+#                  330 = GMT + 5:30    Calcutta, Chennai, Mumbai, New Delhi
+#                  345 = GMT + 5:45    Kathmandu
+#                  390 = GMT + 6:30    Rangoon
+#                  570 = GMT + 9:30    Darwin, Adelaide
+#                 -210 = GMT - 3:30    Newfoundland
+#
+#               Formula for calculating TimeZone in Minutes:
+#                 (#hr * 60min/hr) + #min = total #min
+#
+#               Sample calculation for Darwin (GMT + 9:30):
+#                 (9hr * 60min/hr) + 30min = 570min
+
+TimeZone:17
+
+# -----------------------------------------------------------------------------
+#   Parameter:  NTPIP
+#
+#        Type:  IP address 
+#
+# Description:  NTP IP address.  This is an OPTIONAL parameter; however, if 
+#               this parameter value is not configured and the DHCP server 
+#               does not provide the value, then the time and caller ID time 
+#               information will be incorrect.
+
+NTPIP:0.0.0.0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  AltNTPIP
+#
+#        Type:  IP address 
+#
+# Description:  Alternate NTP IP address (if redundancy is desired)
+
+AltNTPIP:0.0.0.0
+
+# -----------------------------------------------------------------------------
+#  Parameters:  DNS1IP
+#               DNS2IP
+#
+#        Type:  IP address
+#
+# Description:  Primary and secondary DNS server IP addresses
+#               If the DHCP server does not provide them or Dhcp parameter is
+#               set to 0, you must provide at least the primary DNS server IP 
+#               address; otherwise, domain names cannot be resolved.
+
+DNS1IP:0.0.0.0
+DNS2IP:0.0.0.0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  UseTftp
+#
+#        Type:  Boolean
+#
+# Description:  Indicate whether TFTP server is used for provisioning
+#
+#     Options:  1 = Use TFTP for provisioning
+#               0 = TFTP is not used for provisioning
+
+UseTftp:1
+
+# -----------------------------------------------------------------------------
+#   Parameter:  TftpURL
+#
+#        Type:  Alphanumeric string  (31 characters max) 
+#
+# Description:  IP address or URL of TFTP server to use. 
+#               This value is required if the DHCP server will not provide
+#               the TFTP address.  You can optionally include the path prefix
+#               to the Tftp file to download.  Example:  If the TFTP server IP 
+#               address is 192.168.2.170 or wwww.cisco.com, and the path to 
+#               download the Cisco phone profile is in /IP_phones, then you
+#               can specify the URL as 192.168.2.170/IP_phones or 
+#               www.cisco.com/IP_phones.
+
+TftpURL:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  CfgInterval
+#
+#        Type:  Integer  (60 - 4294967295 seconds)
+#
+# Description:  Interval (in seconds) between each configuration update.
+#               When TFTP is used for provisioning, at every such interval 
+#               expiration, the box will perform a TFTP get of its 
+#               configuration file at the earliest possible time -- when the 
+#               box is idle).  CfgInterval can be set to some random value to 
+#               achieve random contact interval from individual phone to the
+#               TFTP server.
+#
+#        Note:  If set to less than 60, default is 60 seconds.
+
+CfgInterval:3600
+
+# -----------------------------------------------------------------------------
+#   Parameter:  EncryptKey
+#
+#        Type:  Hexadecimal string  (8 Hex digits max) 
+#
+# Description:  Key to use to decrypt the configuration profile
+#
+#     Options:        *0 = Configuration profile is not encrypted
+#
+#               non-zero = Configuration profile is encrypted with this key,
+#                          and the phone will decrypt the profile with this
+#                          key.
+#
+#               Default is marked with *.
+#
+#        Note:  The cfgfmt.exe program will automatically encrypt the binary
+#               file when this parameter value is non-zero.
+
+EncryptKey:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  EncryptKeyEx
+#
+#  Value Type:  Hexadecimal string  (64 Hex digits max)
+#
+# Description:  Stronger encryption key to use to decrypt the configuration
+#               profile.  When this parameter is set to a non-zero value, the
+#               phone will request a profile with the name <phone_id><MAC>.x,
+#               where 
+#                 
+#                 <phone_id> = "ld" for Cisco 7905 IP phone
+#                              "gk" for Cisco 7912 IP phone
+#                      <MAC> = MAC address of the Cisco IP phone
+#                          x = extension indicating profile w/strong encryption
+#
+#               If this parameter is set to 0, the phone will operate as if it
+#               only possessed the EncryptKey parameter, i.e. it will request
+#               its profile as <phone_id><MAC> without the "x" extension.
+#
+#      Syntax:  <RC4_Key>[/MAC]
+#
+#                  RC4_Key = Hexadecimal string from 1 to 64 hex digits
+#
+#                      MAC = (Optional) MAC address of the Cisco IP phone
+#                            If this is specified, only the phone with the
+#                            specified MAC address will be able to decrypt
+#                            the profile.
+#
+#     Options:        *0 = EncryptKey parameter value is used.
+#                          The phone will request <phone_id><MAC> file and
+#                          decrypt it using the EncryptKey parameter value.
+#
+#               non_zero = Configuration profile is encrypted with this
+#                          stronger key, and the phone will request and
+#                          decrypt the profile with this key. 
+#
+#               Default is marked with *.
+#
+#        Note:  If this parameter is specified, the cfgfmt.exe (version 2.1a
+#               or later) program will create two profiles.  The 
+#               <phone_id><MAC>.x profile will be encrypted with EncryptKeyEx
+#               while <phone_id><MAC> profile will be encrypted with 
+#               EncryptKey.
+
+#EncryptKeyEx:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  NPrintf
+#
+#        Type:  Extended IP value 
+#
+#      Syntax:  <HOST_IP>.<HOST_PORT>
+#
+# Description:  For diagnostic use.  Use this parameter to specify the IP 
+#               address and port number where the phone will send its
+#               debug output information.
+#
+#               The program "prserv.exe", which is included in every software
+#               upgrade package, is need to capture the debug information.
+#               For example, to send message to the host at 192.168.2.170 and
+#               port number 9001, you would run "prserv 9001" on a PC and 
+#               specify "192.168.2.170.9001" as the value of this parameter.
+
+NPrintf:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  TraceFlags
+#
+#        Type:  Bitmap value
+#   
+# Description:  For diagnostic use.  Use this parameter to turn ON specific
+#               trace features.
+#
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                 0    SIP Messages Log
+#                        *0 = Disable
+#                         1 = Enable
+#
+#                1-7   RESERVED.  Must be set to 0.
+#            
+#                 8    RTP Statistics Log
+#                        *0 = Disable
+#                         1 = Enable
+# 
+#                         RTP statistics log is in the following format:
+#
+#                         Recv[channel number]: <call duration in seconds>
+#                         <number of recv packets> <number of recv octets>
+#                         <number of late packets> <number of lost packets>
+#                         <avg network jitter in 1/8 ms>
+#                         <counts in speeding up local clock 
+#                                             (adjustment for 10 ms each time)>
+#                         <counts in slowing down local clock 
+#                                             (adjustment for 10 ms each time)>
+#
+#                         Tx[channel number]: <call duration in seconds>
+#                                             <number of transmit packets> 
+#                                             <number of transmit octets>
+#
+#                9-31  RESERVED.  Must be set to 0. 
+
+TraceFlags:0x00000000
+
+# -----------------------------------------------------------------------------
+#   Parameter:  IPDialPlan
+#
+#        Type:  Integer  (0 - 2)
+#
+# Description:  Allow for detection of IP-like destination address in dial 
+#               plan.
+#
+#     Options:  0 = Disable IP dialing detection. 
+#
+#               1 = If two '.' is seen, then the phone assumes that an 
+#                   IP address is being entered.
+#
+#               2 = If three '.' is seen, then the phone assumes that an
+#                   IP address is being entered.
+
+IPDialPlan:1
+
+# -----------------------------------------------------------------------------
+#   Parameter:  DialPlan
+#
+#        Type:  Alphanumeric string (199 characters max) 
+#
+# Description:  Dial plan rules.
+#
+#        Note:  No syntax check is performed by the actual implementation.
+#               It is the responsibility of the provisioner to make sure that
+#               the dial_plan is syntatically valid.
+#
+#               Programmable strings of dial plan that allow one to specify:
+#               o special rule -- I{timeout} to control default inter-digit
+#	            timeout - specifying this rule also has the side effect
+#                 of preventing non-matching dial string from being sent out.
+#               o optional send character to use (e.g. '#' or '*')
+#               o how many digits before auto send
+#               o send after timeout at any specified number of digits
+#                 (time out can be changed as digits are entered).
+#                 in the following:
+#                 o . means match any digits
+#                 o - means more digits can be entered, this (if needed) must
+#                     appear at the end of the individual rule
+#                     (i.e. e.g. 1408t5- is legal, but  1408t5-3... 
+#                     is illegal).
+#                 o ># means terminating key to send is #, and termination
+#                      can be applied only after matching hits ># (So >*
+#                      means terminating char is *, i.e. terminating key
+#                      must follow >)
+#                 o rules applied in the order of listed (whichever matched
+#                   completely first will cause trigger the send).
+#                 o tn means timeout is n seconds (note: n is 0-9 and
+#                   a-z -- which ranges 0 to 26).
+#                 o more than one rules are separated by |.
+#                 o rn means repeat last pattern n times (note: 1. ># or tn are
+#                   modifier, they are not pattern; 2. n is 0-9 and a-z --
+#                   which ranges 0 to 26). Use the repeat modifier to specify
+#                   more rules in less space.
+#
+#               You can also use the modifier 'S' to sieze the rule matching
+#               (i.e. if a rule matches and the modifier 'S' is seen, all other
+#               rules after that matching rule will not be used for matching).
+#
+#  Examples 1:  The set of dial plan rules:
+#
+#                    ".t7>#......t4-|911|1t7>#..........t1-|0t4>#.t7-"
+#
+#               or equivalently
+#
+#                    ".t7>#r6t4-|911|1t7>#.r9t1-|0t4>#.t7-"
+#
+#               consists of the following rules:
+#
+#               .t7>#......t2- -- at least one digit need to be
+#                     entered, after that, time out is 7 seconds
+#                     before send, and terminating char # can also
+#                     be applied after the first digit is entered,
+#                     and after 7 digits are entered, time out
+#                     change to 2 seconds. * means further digits
+#                     can be entered as long as not terminated by
+#                     timeout or #.
+#
+#               911 -- send out immediately
+# 
+#               1t7>#..........t1- -- at least one digit need to be
+#                     entered, after that, time out is 7 seconds
+#                     before send, and terminating char # can also
+#                     be applied after the first digit is entered,
+#                     and after 10 digits are entered, time out
+#                     change to 1 second. * means further digits can be
+#                     entered as long as not terminated by timeout
+#                     or #.
+#
+#              0t4>#.t7- -- after entering 0, if no other digit is
+#                    entered, it will timeout and send in 4 seconds,
+#                    otherwise, time out change to 7 seconds after
+#                    another key is entered. again # is terminating
+#                    digit.
+#  Examples 2:  The set of dial plan rules:
+#
+#                    "911|1>#.r9t3.t5-|0t411t9-"
+#
+#               if 911 entered, it will be sent out immediately.
+#               if 14088713344 is entred, after 3 seconds, it will
+#               be sent out but if another digit is entered (say
+#               140887133445, the timeout chaned to 5 seconds).
+#               if 0 is entered, after 4 seconds, it will be send out.
+#               if 011 is entered, the time out changed to 9 seconds.
+
+DialPlan:911|1>#t8.r9t2-|0>#t811.rat4-|^1t4>#.-
+
+# -----------------------------------------------------------------------------
+#   Parameter:  RingOnOffTime
+#
+#        Type:  Array of three short integers   
+#
+# Description:  Control phone ring characteristic.
+#
+#        Note:  Values specified below are recommended for the U.S.
+
+RingOnOffTime:2,4,25
+
+# -----------------------------------------------------------------------------
+#  Parameters:  DialTone
+#               DialTone2
+#               BusyTone
+#               ReorderTone
+#               RingBackTone
+#               CallWaitTone
+#
+#        Type:  Array of short integers  
+#
+# Description:  Playback tones
+#
+#      Format:  For DialTone, DialTone2, BusyTone, RingBackTone, CallWaitTone
+#
+#                 NumOfTone,Freq[0],Level[0],Freq[1],Level[1],NumOfCadence,
+#                 OnTime[0],OffTime[0],OnTime[1],OffTime[1],TotalToneTime
+#
+#               For ReorderTone
+#                
+#                 SequentialTone,NumOfTone,Freq[0],Level[0],Freq[1],Level[1],
+#                 Freq[2],Level[2],NumOfCadence,OnTime[0],OffTime[0],
+#                 OnTime[1],OffTime[1],OnTime[2],OffTime[2],NumOfRepeat,
+#                 TotalToneTime
+#
+#     Options:  - NumOfTone: 
+#                   Number of frequency components (1 or 2)
+#                   For Reorder Tone, value range is 1 to 3.
+#               - Freq[x] (Hz): 
+#                   Transformed frequency (-32768 to 32767)
+#               - Level[x] (dBm): 
+#                   Transformed amplitude (-32768 - 32767)
+#               - NumOfCadence: 
+#                   Number of cadence pairs (0 - 2).  
+#                   For Reorder Tone, value range is 0 to 3.  
+#                   To specify a steady tone, set value to 0.
+#               - OnTime[x] (s): 
+#                   Length of time tone is ON (0 - 65535)
+#               - OffTime[x] (s): 
+#                   Length of time tone is OFF (0 - 65535)
+#               - SequentialTone: 
+#                   Juxtoposed tones or sequential tones
+#                   0 = Juxtoposed tone, 1 = Sequential tone
+#               - NumOfRepeat: 
+#                   Number of times (OnTime[x], OffTime[x]) cadence pair is
+#                   repeated before proceeding to the (OnTime[x], OffTime[x]).
+#               - TotalToneTime: 
+#                   The total length of time the tone is played. If set to 0,
+#                   tone will play continously until other call events stop
+#                   the tone.  For DialTone, BusyTone, ReorderTone, and
+#                   RingBackTone, the unit is in number of 10 ms.  For other
+#                   tones, the unit is the number of samples.
+#
+#        Note:  1. If NumOfCadence is set to 0, OnTime[x] and OffTime[x] must
+#                  be set to 0.
+#               2. Values specified below are recommended for the U.S. 
+
+DialTone:2,31538,814,30831,2032,0,0,0,0,0,0  
+DialTone2:2,30743,1384,29864,1252,0,0,0,0,0,0	
+BusyTone:2,30467,1104,28959,1404,1,4000,4000,0,0,0
+ReorderTone:0,2,30467,1104,28959,1404,0,0,1,2000,2000,0,0,0,0,0,0
+RingBackTone:2,30831,2032,30467,1104,1,16000,32000,0,0,0
+CallWaitTone:1,30831,2412,0,0,1,2400,2400,0,0,4800
+
+# -----------------------------------------------------------------------------
+#   Parameter:  NATIP
+#
+#        Type:  IP address 
+#
+# Description:  WAN IP address of the attached router/NAT
+
+NATIP:0.0.0.0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  MediaPort
+#
+#        Type:  Integer  (1 - 65535) 
+#
+# Description:  Base port to receive RTP media
+
+MediaPort:16384
+
+# -----------------------------------------------------------------------------
+#   Parameter:  TOS
+#
+#        Type:  Bitmap value 
+#
+# Description:  ToS (Type of Service) bits.  This bitmap value specifies the
+#               precedence and delay of Audio and Signaling IP packets.
+#
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                0-7   ToS Value For Audio Data Packets
+#                        Range:  0-255   Default:  184  (0xb8)
+#
+#                8-15  ToS Value For Signaling Data Packets
+#                        Range:  0-255   Default:  96  (0x60)
+#
+#               16-31  RESERVED
+
+TOS:0x000060b8
+
+# -----------------------------------------------------------------------------
+#   Parameter:  SigTimer
+#
+#        Type:  Bitmap value
+#
+# Description:  Timeout values to start/stop the following signalling events
+#
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                0-7   CALL WAITING PERIOD
+#                      Period between each burst of call waiting tone
+#
+#                        Range: 0 - 255 
+#                       Factor: 0.1 second   
+#                         Note: 0 defaults to 100 (or 10 sec)
+#                      Default: 100 (0x64 = 10 sec)
+#
+#                8-13  RESERVED.  Must be set to 0.
+#
+#               14-19  RING TIMEOUT
+#                      Timeout in ringing the phone after which the incoming
+#                      call is rejected
+# 
+#                        Range: 0 - 63 
+#                       Factor: 10 seconds 
+#                         Note: 0 means ring never times out
+#                      Default: 6 (60 sec)
+# 
+#               20-25  NO ANSWER TIMEOUT
+#                      Time to declare no answer and initiate call forwarding
+#                      on no answer
+#                   
+#                        Range: 0 - 63 
+#                       Factor: 1 second
+#                      Default: 20 (0x14 = 20 sec)
+#
+#               26-27  RESERVED.  Must be set to 0.
+#
+#               28-29  FIRST KEY REPEAT INTERVAL
+#                      The minimum time required initially for the Volume or
+#                      Navigation key to be pressed before the highlight bar
+#                      begins to move automatically.
+#
+#                        Range: 0 to 3 
+#                      Default: 0 (1 second)
+#
+#                               0 = 1 sec     1 = Disable Key Repeat     
+#                               2 = 2 sec     3 = 3 sec
+#
+#               30-31  SUBSEQUENT KEY REPEAT INTERVAL
+#                      The minimum time required subsequently for Volume or
+#                      Navigation key to be pressed to keep the highlight bar
+#                      moving automatically.
+#
+#                        Range: 0 to 3
+#                      Default: 0 (0.25 second)
+#
+#                               0 = 0.25 sec     1 = 0.5 sec
+#                               2 = 0.75 sec     3 = 1 sec
+
+SigTimer:0x01418064
+
+# -----------------------------------------------------------------------------
+#   Parameter:  OpFlags
+#
+#        Type:  Bitmap value 
+#
+# Description:  Turn ON/OFF various operational features 
+#
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                 0    TFTP CONFIGURATION FILE NAME
+#                     *0 = Do not use internally generated TFTP configuration 
+#                          file name
+#                      1 = Always use the internally generated TFTP 
+#                          configuration file name
+#
+#                 1    NETWORK PROBING ON POWER UP
+#                      0 = Probe the static network router on power up
+#                     *1 = Do not perform static network router probing at 
+#                          power up
+#
+#                 2    RESERVED.  Must be set to 0.
+#
+#                 3    DHCP OPTION 150
+#                     *0 = Ask for DHCP option 150 in DHCP DISCOVERY message
+#                      1 = Do not ask for DHCP option 150 in DHCP DISCOVERY
+#                          message (some DHCP server will not respond if 
+#                          option 150 is requested)
+#
+#                 4    NETWORK OPERATION
+#                     *0 = Assume normal operation without VLAN
+#                      1 = Assume operation under VLAN (the VLAN ID is 
+#                          specified in VLANSetting, see VLANSetting parameter)
+#			   Multicast is disabled
+# 
+#                 5    VLAN ENCAPSULATION
+#                     *0 = Use VLAN IP encapsulation
+#                      1 = Do not use VLAN IP encapsulation, i.e. force 
+#                          turning OFF VLAN IP encapsulation
+#
+#                 6    Cisco Discovery Protocol (CDP)
+#                     *0 = Use CDP discovery
+#                      1 = Do not perform CDP discovery. Multicast is disabled
+#
+#                 7    WEB CONFIGURATION ACCESS
+#                     *0 = Allow web configuration
+#                      1 = Do not allow web configuration
+#                     
+#                 8    TFTP REFRESH ACCESS
+#                     *0 = Allow force profile update via http://ip/refresh 
+#                      1 = Do not allow http://ip/refresh
+#
+#                 9    REMOTE RESET ACCESS
+#                     *0 = Allow reset of the phone via http://ip/reset
+#                      1 = Do not allow reset of the phone via http://ip/reset
+#
+#               10-14  RESERVED.  Must be set to 0.
+#
+#                15    UDP CHECKSUM GENERATION
+#                     *0 = Generate UDP checksum in outgoing UDP packets
+#                      1 = Do not generate UDP checksum in outgoing UDP packets
+#
+#               16-31  RESERVED.  Must be set to 0.
+
+OpFlags:0x00000002
+
+# -----------------------------------------------------------------------------
+#   Parameter:  VLANSetting
+#
+#        Type:  Bitmap value
+#
+# Description:  Control various VLAN settings
+#
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                0-2   Specify 802.1Q priority for Signalling IP packets
+#                3-5   Specify 802.1Q priority for Audio Voice IP packets
+#                6-17  RESERVED.  Must be set to 0.
+#               18-29  Specify 802.1Q VLAN ID
+#               30-31  RESERVED.  Must be set to 0.
+
+VLANSetting:0x0000002b
+
+# -----------------------------------------------------------------------------
+#   Parameter:  NatServer
+#
+#        Type:  Alphanumeric string  (47 characters max)
+#
+# Description:  IP address or domain name of a server to which a dummy, 
+#               single-byte UDP packet is sent to maintain a NAT during 
+#               a session.
+#
+#      Syntax:  <NAT_SERVER_IP | FQDN>[:port]  
+#               If port number is not specified, 5060 is assumed. 
+
+NatServer:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  NatTimer 
+#
+#        Type:  Bitmap value
+#
+# Description:  This parameter provides control over the transmission interval
+#               and destination server of Keep Alive packets.
+#
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                0-11  SIP/RTP Keep Alive (KA) period in seconds (0-2047)
+#                      Specify the interval in which a dummy packet is sent 
+#                      out through the specified SIP and RTP ports to keep
+#                      the port bindings on the NAT/firewall open
+#
+#               12-17  RESERVED.  Must be set to 0.
+#
+#                 18   SIP KA destination: 
+#                         0 = NatServer
+#                         1 = ProxyServer
+#
+#                 19   RESERVED.  Must be set to 0.
+#
+#                 20   Enable KA for SIPPort (send to either NatServer or 
+#                      Proxy)
+#
+#                 21   Enable KA for MediaPort     (send to NatServer)
+#
+#                 22   Enable KA for MediaPort + 4 (send to NatServer)
+#
+#               23-31  RESERVED.  Must be set to 0.
+# 
+#        Note:  1. If NatServer is not specified (0) or invalid, then the 
+#                  only available option is to enable SIP KA to Proxy Server.
+# 
+#               2. If KA period is 0, all KA are disabled; but still can
+#                  do NATIP mapping.
+
+NatTimer:0
+
+# ============================ Caller Preferences =============================
+
+# -----------------------------------------------------------------------------
+#   Parameter:  CallForwardNumber
+#
+#        Type:  Numeric digit string  (31 digits max)
+#
+# Description:  Phone number to forward all calls 
+#
+#        Note:  Set value to zero (0) to disable this feature.
+
+CallForwardNumber:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  VoiceMailNumber
+#
+#        Type:  Numeric digit string  (31 digits max)
+#
+# Description:  Phone number to access voice mail 
+#
+#        Note:  Set value to zero (0) to disable this feature.
+
+VoiceMailNumber:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  CallFwdBusyNumber
+#
+#        Type:  Numeric digit string  (31 digits max)
+#
+# Description:  Phone number to forward busy calls 
+#
+#        Note:  Set value to zero (0) to disable this feature.
+
+CallFwdBusyNumber:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  DisplayName
+#
+#        Type:  Alphanumeric string  (31 characters max)
+#
+# Description:  Display Name used in outgoing Caller ID
+#
+#        Note:  Set value to zero (0) to disable this feature.
+
+DisplayName:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  ShortName
+#
+#        Type:  Alphanumeric string  (31 characters max)
+#
+# Description:  Name to be displayed on phone's LCD screen. 
+#
+#        Note:  Set value to zero (0) to disable this feature and display
+#               the value in "DisplayName", if any, on the LCD screen.
+
+ShortName:0
+
+# -----------------------------------------------------------------------------
+#  Parameters:  TimeFormat
+#               DateFormat
+#
+#        Type:  Alphanumeric string  (15 characters max)
+#
+# Description:  Strings to controls the Time and Date format as appear
+#               on the top line of the LCD display. 
+#
+#               Special characters are:  
+#
+#                   h = 12 hour format
+#                   H = 24 hour format
+#                   i = Minute
+#                   I = Minute
+#                   a = AM
+#                   A = AM
+#                   p = PM
+#                   P = PM
+#                   m = Month in number  (1 - 12)
+#                   M = Month in abbreviation  (Jan - Dec)
+#                   d = Day in number  (1 - 31)
+#                   D = Day in number (1 - 31)
+#                   y = Year in 2 digits  (00 - 99)
+#                   Y = Year in 4 digits  (0000 - 9999)
+#                   : = Colon blinks every second
+#                   0 = Time or date is not displayed
+# 
+#               All other characters are shown as is. 
+#
+#    Examples:  TimeFormat    Sample Display 
+#               ----------    --------------
+#                  h:ia       2:00p or 11:00a
+#                  H:i        14:00     
+#                  0          Time is not displayed
+#
+#               DateFormat    Sample Display
+#               ----------    --------------
+#                  m-d-y      04-20-05 
+#                  M d, Y     Apr 20, 2005
+#                  M. D, y    Apr. 20, 05 
+#                  Y/m/d      2005/04/20
+#                  Y M. D     2005 Apr. 20
+#                  0          Date is not displayed
+
+TimeFormat:h:ia
+DateFormat:m-d-y
+
+# -----------------------------------------------------------------------------
+#   Parameter:  DoNotDisturb
+#
+#        Type:  Boolean
+#
+# Description:  Enable or disable "Do Not Disturb"
+#
+#     Options:  0 = Deactivate "Do Not Disturb" feature
+#               1 = Activate "Do Not Disturb" feature
+
+DoNotDisturb:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  BlockCallerId
+#
+#        Type:  Boolean
+#
+# Description:  Enable or disable blocking of outgoing Caller ID
+#
+#     Options:  0 = Do not block outgoing Caller ID
+#               1 = Block outgoing Caller ID 
+
+BlockCallerId:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  CallWaiting
+#
+#        Type:  Boolean
+#
+# Description:  Enable or disable call waiting for every call
+#
+#     Options:  0 = Disable call waiting for every call
+#               1 = Enable call waiting for every call
+
+CallWaiting:1
+
+# -----------------------------------------------------------------------------
+#   Parameter:  AttendedTransfer
+#
+#        Type:  Boolean
+#
+# Description:  Enable or disable attended call transfer
+#
+#        Note:  If attended call transfer is disabled, the "Trnsfer" 
+#               softkey will not be shown on the LCD screen.
+#
+#     Options:  0 = Disable attended call transfer
+#               1 = Enable attended call transfer 
+
+AttendedTransfer:1
+
+# -----------------------------------------------------------------------------
+#   Parameter:  BlindTransfer
+#
+#        Type:  Boolean
+#
+# Description:  Enable or disable blind transfer
+#
+#        Note:  If blind transfer is disabled, the "BlndXfr" softkey
+#               will not be shown on the LCD screen.
+#
+#     Options:  0 = Disable blind transfer 
+#               1 = Enable blind transfer
+
+BlindTransfer:1
+
+# -----------------------------------------------------------------------------
+#   Parameter:  Conference
+#
+#        Type:  Boolean
+#
+# Description:  Enable or disable 3-way conference
+#
+#        Note:  If 3-way conference is activated, "Confrn" softkey
+#               will not be shown on the LCD screen. 
+#
+#     Options:  0 = Deactivate 3-way conference
+#               1 = Enable 3-way conference
+
+Conference:1
+
+# -----------------------------------------------------------------------------
+#   Parameter:  BlockAnonymous
+#
+#        Type:  Boolean
+#
+# Description:  Enable or disable blocking of anonymous incoming calls
+#
+#        Note:  If enabled, anonymous incoming calls will be rejected.
+#
+#     Options:  0 = Deactivate blocking of anonymous incoming call
+#               1 = Activate blocking of anonymous incoming call
+
+BlockAnonymous:0
+
+# -----------------------------------------------------------------------------
+#   Parameter:  ForwardToVMDelay
+#
+#        Type:  Integer  (1 - 4294967295 seconds)
+#
+# Description:  Number of seconds before forwarding a call to the 
+#               VoiceMailNumber, if configured.
+#
+#        Note:  This setting has no effect if VoiceMailNumber is not
+#               provisioned OR the value is 0 or greater than the ring timeout
+#               value (see SigTimer bits 14-19).
+
+ForwardToVMDelay:20
+
+# -----------------------------------------------------------------------------
+#  Parameters:  CallPrefGuiShow
+#               CallPrefGuiSet
+#
+#        Type:  Bitmap value
+#
+# Description:  CallPrefGuiShow provides the ability to control whether a
+#               call preference option is displayed on the LCD screen.
+#               
+#               CallPrefGuiSet provides the ability to control whether a
+#               call preference option can be set by an end user if it is
+#               displayed on the LCD screen.
+#
+#     Options:   Bit   Values
+#               -----  --------------------------------------------------------
+#                 0    Do Not Disturb (DND)
+#
+#                 1    Call Waiting
+#
+#                 2    Block Caller ID
+#
+#                 3    Call Forward All
+#
+#                 4    RESERVED
+#
+#                 5    RESERVED
+#
+#                 6    Display Name
+#
+#                 7    Time Format
+#
+#                 8    Date Format
+#
+#                 9    Voice Mail
+#
+#                10    Call Transfer
+#
+#                11    Blind Transfer
+#
+#                12    Conference
+#
+#                13    Short Name
+#
+#               14-23  RESERVED
+#
+#                24    Block Anonymous Calls
+#
+#                25    RESERVED
+#
+#                26    Forward to Voice Mail Delay
+#
+#                27    Call Forward On Busy
+#
+#                28    Show Registration Status Icon
+#                      (If set in CallPrefGuiShow, registration status icon
+#                       will be displayed on LCD screen.  This bit has no
+#                       effect in CallPrefGuiSet.) 
+#
+#               29-31  RESERVED
+
+CallPrefGuiShow:0xffffffff
+CallPrefGuiSet:0xffffffff

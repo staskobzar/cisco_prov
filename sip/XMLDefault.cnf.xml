@@ -11,7 +11,7 @@
               <keepAlive>2428</keepAlive>  
             </mgcpPorts>  
           </ports>  
-          <processNodeName>10.130.12.66</processNodeName>  
+          <processNodeName>10.130.8.20</processNodeName>  
         </callManager>  
       </member>  
       <member priority="1">  
@@ -23,12 +23,13 @@
               <keepAlive>2428</keepAlive>  
             </mgcpPorts>  
           </ports>  
-          <processNodeName>10.17.77.5</processNodeName>  
+          <processNodeName>FAILOVER_NODE_IP</processNodeName>  
         </callManager>  
       </member>  
     </members>  
   </callManagerGroup>  
   <loadInformation307 model="SIP: Cisco IP Phone 7911">SIP11.8-5-4S</loadInformation307>
+  <loadInformation30007  model="Cisco 7912">CP7912080000SIP060111A</loadInformation30007>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  
@@ -39,4 +40,13 @@
 
   <sshUserId>cisco</sshUserId>  
   <sshPassword>cisco</sshPassword> 
+
+  <userLocale>
+    <name>French_France-8.5.3</name>
+    <uid>2</uid>
+    <langCode>fr</langCode>
+    <version>4.1(3.645)FRA</version>
+    <winCharSet>iso-8859-1</winCharSet>
+  </userLocale>
+
 </Default> 

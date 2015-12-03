@@ -1,0 +1,210 @@
+# -----------------------------------------------------------------------------
+#                      Cisco 7905/7912 SIP Parameter Tags
+# -----------------------------------------------------------------------------
+#
+# This file contains configuration parameter tag descriptor that is used by
+# the CFGFMT program to determine how to convert a string representation of
+# parameter value pair to its corresponding TLV (Tag Length Value) binary
+# representation.
+#
+# Each descriptor is on a single line and has the following format:
+#
+#                     tag,tagFmtBit,nameStr,size                             
+#
+#    where
+#
+#       * tag is the integer value assigned to a parameter named nameStr.
+#
+#       * tagFmtBit is a bitmap of the value's format information. 
+#         The formats are limited to the following set for historical
+#         compatibility:
+#
+#             0x0002 -- IP address format
+#             0x0004 -- 32-bit integer format
+#             0x0008 -- digits (0-9 and include dot)
+#             0x0010 -- alphabetic characters
+#             0x0020 -- boolean
+#             0x0040 -- array of shorts (array of 2-bytes value)
+#             0x0080 -- extended IP address (IP.PORT)
+#             0x0100 -- tone frequency format (to be obsoleted)
+#             0x0200 -- treated unsigned integer (hex format).
+#             0x4000 -- if -g flag specify if cfgfmt, do not include
+#                       those with this bit set in ata<mac> file.
+#             0x8000 -- firmware version 3.0 format bit that if the profile
+#                       is larger than bigger than 2000 bytes, those TLV
+#                       that has this bit set will be put in separate
+#                       extended profile.
+#                
+#       * nameStr refers to the parameter.
+#
+#       * size is the length of the value of the parameter.
+#
+# -----------------------------------------------------------------------------
+
+3,0x0006,StaticIP,4
+4,0x0006,StaticRoute,4
+5,0x0006,StaticNetMask,4
+6,0x0006,EchoIP,4
+7,0x000C,RxCodec,4
+8,0x000C,TxCodec,4
+9,0x0006,DNS1IP,4
+10,0x0006,DNS2IP,4
+11,0x000C,NumTxFrames,4
+12,0x020C,AutMethod,4
+13,0x000C,SIPRegInterval,4
+14,0x000C,MaxRedirect,4
+15,0x0028,Dhcp,1
+19,0x0028,SIPRegOn,1
+20,0x0028,UseTftp,1
+21,0x0028,UseLoginID,1
+23,0x4008,UIPassword,10
+24,0x0006,NTPIP,4
+25,0x4010,UID,32
+26,0x4010,PWD,32
+29,0x0010,Proxy,32
+32,0x0010,TftpURL,32
+35,0x0080,NPrintf,6
+36,0x0050,DialTone,22
+37,0x0050,BusyTone,22
+38,0x0050,ReorderTone,34
+39,0x0050,RingBackTone,22
+40,0x0050,CallWaitTone,22
+41,0x0010,DialPlan,200
+44,0x0010,LoginID,52
+47,0x0050,DialTone2,22
+50,0x000C,CfgInterval,4
+52,0x000C,IPDialPlan,4
+56,0x000C,TimeZone,4
+57,0x020C,ConnectMode,4
+58,0x020C,AudioMode,4
+59,0x020C,TraceFlags,4
+60,0x0050,RingOnOffTime,6
+61,0x0010,EncryptKey,9
+62,0x020C,CallFeatures,4
+64,0x020C,PaidFeatures,4
+67,0x0010,Proxy2,32
+68,0x0006,NATIP,4
+69,0x000C,SIPPort,4
+70,0x000C,MediaPort,4
+72,0x020C,TOS,4
+74,0x000C,AltProxyTimeOut,4
+75,0x0010,OutBoundProxy,32
+76,0x020C,SigTimer,4
+77,0x020C,OpFlags,4
+78,0x0006,AltNTPIP,4
+95,0x020C,VLANSetting,4
+97,0x0010,NatServer,48
+98,0x020C,NatTimer,4
+100,0x0010,Domain,32
+111,0x0006,Proxy3,4
+112,0x0006,SRST,4
+112,0x0006,Proxy4,4
+161,0x020C,MsgRetryLimits,4
+165,0x000C,SIPRegInterval2,4
+
+# -----------------------------------------------------------------------------
+#                    Special Tags for SIP Phone Provisioning
+# -----------------------------------------------------------------------------
+#
+#       ServicesUrl: URL to contact to obtain XML Services (0 to disable)
+#
+#    DirectoriesUrl: URL to contact to obtain Directory Services (0 to disable)
+#
+# CallForwardNumber: Phone number to forward all calls (0 to disable)
+#
+#   VoiceMailNumber: Phone number to access voice mail (0 to disable)
+#
+#       DisplayName: Display Name used in outgoing caller id (0 to disable)
+#
+#        TimeFormat: Control the Time format as it appears on the top bar. 
+#                    Special characters are (h H i I a A p P :) and those
+#                    listed in DateFormat below.  
+#
+#                           h = Display time in 12 hour format
+#                           H = Display time in 24 hour format 
+#                       i = I = Display minute
+#                       a = p = Display "a" for AM or "p" for PM
+#                       A = P = Display "A" for AM or "P" for PM
+#                           : = Display and blink ":" every second
+#
+#                    All other characters are displayed as is. 
+#                    Maximum length is 15 characters. 
+#                    Examples: h:ia, H:i
+#
+#        DateFormat: Control the Date format as appears on the top bar.
+#                    Special characters are (m M d D y Y) and those listed
+#                    in TimeFormat above. 
+#
+#                           m = Display month as a number (1 - 12) 
+#                           M = Display first three letters of the month
+#                               Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep,
+#                               Oct, Nov, Dec 
+#                       d = D = Display the day as a number (1 - 31)
+#                           y = Display year in 2-digit format (00 - 99)
+#                           Y = Display year in 4-digit format (0000 - 9999)
+#
+#                    All other characters are displayed as is.
+#                    Maximum length is 15 characters.
+#                    Examples: "m-d-y", "M d, Y", "M. D, y", "Y/m/d"
+#
+#      DoNotDisturb: 1(0) to activate (deactivate) Do Not Disturb feature
+#
+#     BlockCallerId: 1(0) to activate (deactivate) blocking of outgoing
+#                    caller id
+#
+#       CallWaiting: 1(0) to activate (deactivate) call waiting feature
+#
+#  AttendedTransfer: 1(0) to activate (deactivate) attended call transfer
+#                    feature
+#
+#     BlindTransfer: 1(0) to activate (deactivate) blind transfer feature
+#
+#        Conference: 1(0) to activate (deactivate) 3-way conference feature
+#
+#    BlockAnonymous: 1(0) to activate (deactivate) blocking of anonymous
+#                    incoming call feature
+#
+#        AutoLookUp: 1(0) to activate (deactivate) auto phone number lookup
+#                    feature on dialing
+#
+#  ForwardToVMDelay: number of seconds before forwarding calls to given
+#                    VoiceMailNumber (if voicemail nubmer is given)
+#
+#   CallPrefGuiShow: A set of flags to control whether a call pref option
+#                    is shown on the phone's GUI               
+#
+#    CallPrefGuiSet: A set of flags to control whether a call pref option
+#                    is set'able by the end user (if shown on the GUI).
+#                    Same bit mask as CallPrefGuiShow
+#
+#         ShortName: An alternate name to display on the phone's background
+#                    screen. If the value is 0 or empty, the phone's display
+#                    name is shown instead.
+#
+# CallFwdBusyNumber: Phone number to forward busy calls to (0 to disable)
+#
+#ConfigVersionStamp: (CME only) configuration version stamp used to determine
+#                    if a restart is indeed required to update the 79xx config.
+# -----------------------------------------------------------------------------
+
+1001,0x0010,ServicesUrl,64
+1002,0x0010,DirectoriesUrl,64
+1003,0x0010,CallForwardNumber,32
+1004,0x0010,VoiceMailNumber,32
+1005,0x0010,TimeFormat,16
+1006,0x0010,DisplayName,32
+1007,0x020C,CallPrefGuiSet,4
+1008,0x020C,CallPrefGuiShow,4
+1009,0x0010,DateFormat,16
+1010,0x0028,DoNotDisturb,1
+1011,0x0028,BlockCallerId,1
+1012,0x0028,AutoLookUp,1
+1013,0x0028,CallWaiting,1
+1014,0x000C,ForwardToVMDelay,4
+1015,0x0028,AttendedTransfer,1
+1016,0x0028,BlindTransfer,1
+1017,0x0028,Conference,1
+1018,0x0028,BlockAnonymous,1
+1019,0x0010,ShortName,32
+1020,0x0010,CallFwdBusyNumber,32
+1021,0x0010,ConfigVersionNumber,48
