@@ -28,8 +28,9 @@
       </member>  
     </members>  
   </callManagerGroup>  
-  <loadInformation307 model="SIP: Cisco IP Phone 7911">SIP11.8-5-4S</loadInformation307>
-  <loadInformation30007  model="Cisco 7912">CP7912080000SIP060111A</loadInformation30007>
+  <loadInformation307    model="SIP: Cisco IP Phone 7911">SIP11.8-5-4S</loadInformation307>
+  <loadInformation30007  model="SIP: Cisco 7912">CP7912080000SIP060111A</loadInformation30007>
+  <loadInformation495    model="SIP: Cisco 6921">SIP69xx.9-4-1-3SR2</loadInformation495>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  

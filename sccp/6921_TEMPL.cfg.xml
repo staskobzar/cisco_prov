@@ -19,7 +19,7 @@
                 <keepAlive>2428</keepAlive>
               </mgcpPorts>
             </ports>
-            <processNodeName>10.17.77.3</processNodeName>
+            <processNodeName>10.130.12.66</processNodeName>
           </callManager>
         </member>
         <member priority="1">
@@ -55,7 +55,7 @@
     <preemption>Default</preemption>
     <connectionMonitorDuration>120</connectionMonitorDuration>
   </devicePool>
-  <loadInformation>P0030801SR02</loadInformation>
+  <loadInformation>SCCP69xx.9-4-1-3SR2</loadInformation>
   <vendorConfig>
     <disableSpeaker>false</disableSpeaker>
     <disableSpeakerAndHeadset>false</disableSpeakerAndHeadset>
@@ -85,13 +85,17 @@
   </networkLocaleInfo>
   <deviceSecurityMode>1</deviceSecurityMode>
   <idleTimeout>0</idleTimeout>
-  <authenticationURL>http://10.9.62.3/CCMCIP/authenticate.asp</authenticationURL>
-  <directoryURL>http://10.17.77.2/ciscoXMLservices/directory</directoryURL>
+  <authenticationURL>
+  http://10.9.62.3/CCMCIP/authenticate.asp</authenticationURL>
+  <directoryURL>
+  http://10.9.62.3/CCMCIP/xmldirectory.asp</directoryURL>
   <idleURL></idleURL>
-  <informationURL>http://10.9.62.3/CCMCIP/GetTelecasterHelpText.asp</informationURL>
+  <informationURL>
+  http://10.9.62.3/CCMCIP/GetTelecasterHelpText.asp</informationURL>
   <messagesURL></messagesURL>
   <proxyServerURL></proxyServerURL>
-  <servicesURL>http://10.17.77.2/CCMCIP/getservicesmenu.asp</servicesURL>
+  <servicesURL>
+  http://10.9.62.3/CCMCIP/getservicesmenu.asp</servicesURL>
   <dscpForCm2Dvce>96</dscpForCm2Dvce>
   <dscpForSCCPPhoneConfig>96</dscpForSCCPPhoneConfig>
   <dscpForSCCPPhoneServices>0</dscpForSCCPPhoneServices>
@@ -99,9 +103,7 @@
   <capfList>
     <capf>
       <phonePort>3804</phonePort>
-      <processNodeName>10.17.77.3</processNodeName>
+      <processNodeName>10.130.12.66</processNodeName>
     </capf>
   </capfList>
-  <sshUserId>admin</sshUserId>  
-  <sshPassword>admin</sshPassword>
 </device>

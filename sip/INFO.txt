@@ -33,3 +33,17 @@ te    Time    Name
      8292  2006-01-13 17:09   Readme7912.txt
 ---------                     -------
                               9 files
+
+================================================================================
+Cisco IP Phone 6921
+!! Porblem with proxy. Phone always uses IP instead of domain name. !!
+!! This will work with Asterisk but not with multi-tenent SIP proxy.!!
+==== cmterm-69xx-SIP-9-4-1-3SR2
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    45308  03-24-2014 14:42   BOOT69xx.0-0-0-14.zz.sgn
+   227828  03-24-2014 14:42   DSP69xx.12-4-122-99.131025.zz.sgn
+      498  07-23-2015 21:32   SIP69xx.9-4-1-3SR2.loads
+  3118876  07-23-2015 21:29   SIP69xx.9-4-1-3SR2.zz.sgn
+---------                     -------
+  3392510                     4 files

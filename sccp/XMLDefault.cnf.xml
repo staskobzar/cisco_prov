@@ -30,6 +30,7 @@
   </callManagerGroup>  
   <loadInformation307 model="SCCP: Cisco IP Phone 7911">SCCP11.9-4-2-1S</loadInformation307>
   <loadInformation30007  model="SCCP: Cisco 7912">CP7912080004SCCP080108A</loadInformation30007>
+  <loadInformation495    model="SCCP: Cisco 6921">SCCP69xx.9-4-1-3SR2</loadInformation495>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  

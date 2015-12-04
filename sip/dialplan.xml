@@ -1,0 +1,8 @@
+<DIALTEMPLATE> 
+<TEMPLATE MATCH="." TIMEOUT="15" User="Phone"/> 
+<TEMPLATE MATCH="...." TIMEOUT="2" User="Phone"/> 
+<TEMPLATE MATCH="9......." TIMEOUT="2" User="Phone"/> 
+<TEMPLATE MATCH="13...." TIMEOUT="2" User="Phone"/> 
+<TEMPLATE MATCH="02........" TIMEOUT="2" User="Phone"/> 
+</DIALTEMPLATE> 
+
