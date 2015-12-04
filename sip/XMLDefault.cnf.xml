@@ -31,6 +31,10 @@
   <loadInformation307    model="SIP: Cisco IP Phone 7911">SIP11.8-5-4S</loadInformation307>
   <loadInformation30007  model="SIP: Cisco 7912">CP7912080000SIP060111A</loadInformation30007>
   <loadInformation495    model="SIP: Cisco 6921">SIP69xx.9-4-1-3SR2</loadInformation495>
+  <loadInformation115    model="SIP: Cisco 7941">SIP41.8-5-4S</loadInformation115>
+  <loadInformation309    model="SIP: Cisco 7941G-GE">SIP41.8-5-4S</loadInformation309>
+  <loadInformation30018  model="SIP: Cisco 7961">SIP41.8-5-4S</loadInformation30018>
+  <loadInformation308    model="SIP: Cisco 7961G-GE">SIP41.8-5-4S</loadInformation308>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  
