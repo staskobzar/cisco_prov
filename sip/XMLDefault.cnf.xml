@@ -35,6 +35,8 @@
   <loadInformation309    model="SIP: Cisco 7941G-GE">SIP41.8-5-4S</loadInformation309>
   <loadInformation30018  model="SIP: Cisco 7961">SIP41.8-5-4S</loadInformation30018>
   <loadInformation308    model="SIP: Cisco 7961G-GE">SIP41.8-5-4S</loadInformation308>
+  <loadInformation434    model="SIP: Cisco 7942">SIP42.8-5-4S</loadInformation434>
+  <loadInformation404    model="SIP: Cisco 7962">SIP42.8-5-4S</loadInformation404>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  
