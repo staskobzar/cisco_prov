@@ -1,8 +1,0 @@
-<CiscoIPPhoneImageList>
-
-<ImageItem  Image="TFTP:Desktops/320x196x4/hdc-thumb.png" URL="TFTP:Desktops/320x196x4/dhc.png"/> 
-<ImageItem  Image="TFTP:Desktops/320x196x4/world-thumb.png" URL="TFTP:Desktops/320x196x4/world.png"/> 
-<ImageItem  Image="TFTP:Desktops/320x196x4/tree-thumb.png" URL="TFTP:Desktops/320x196x4/tree.png"/> 
-
-</CiscoIPPhoneImageList>
-
