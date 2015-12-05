@@ -1,0 +1,7 @@
+Release Notes:
+P0030801SR02
+
+This release is based on 8.1(2)_SR1, with the following bug fix added:
+
+CSCtg01287 7940/60 Edit dial screen does not display number with + sign
+

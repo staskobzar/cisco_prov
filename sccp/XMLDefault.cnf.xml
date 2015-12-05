@@ -28,7 +28,7 @@
       </member>  
     </members>  
   </callManagerGroup>  
-  <loadInformation307 model="SCCP: Cisco IP Phone 7911">SCCP11.9-4-2-1S</loadInformation307>
+  <loadInformation307    model="SCCP: Cisco IP Phone 7911">SCCP11.9-4-2-1S</loadInformation307>
   <loadInformation30007  model="SCCP: Cisco 7912">CP7912080004SCCP080108A</loadInformation30007>
   <loadInformation495    model="SCCP: Cisco 6921">SCCP69xx.9-4-1-3SR2</loadInformation495>
   <loadInformation115    model="SCCP: Cisco 7941">SCCP41.9-4-2SR1-1S</loadInformation115>
@@ -37,6 +37,8 @@
   <loadInformation308    model="SCCP: Cisco 7961G-GE">SCCP41.9-4-2SR1-1S</loadInformation308>
   <loadInformation434    model="SCCP: Cisco 7942">SCCP42.9-4-2SR1-1S</loadInformation434>
   <loadInformation404    model="SCCP: Cisco 7962">SCCP42.9-4-2SR1-1S</loadInformation404>
+  <loadInformation8      model="SCCP: Cisco 7940">P0030801SR02</loadInformation8>
+  <loadInformation7      model="SCCP: Cisco 7960">P0030801SR02</loadInformation7>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  
