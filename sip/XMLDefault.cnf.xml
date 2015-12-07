@@ -39,7 +39,7 @@
   <loadInformation404    model="SIP: Cisco 7962">SIP42.8-5-4S</loadInformation404>
   <loadInformation8      model="SIP: Cisco 7940">P0S3-8-12-00</loadInformation8>
   <loadInformation7      model="SIP: Cisco 7960">P0S3-8-12-00</loadInformation7>
-
+  <loadInformation621    model="SIP: Cisco 7821">sip78xx.11-0-1-11</loadInformation621>
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  
   <idleURL></idleURL>  
