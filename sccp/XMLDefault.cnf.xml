@@ -39,6 +39,8 @@
   <loadInformation404    model="SCCP: Cisco 7962">SCCP42.9-4-2SR1-1S</loadInformation404>
   <loadInformation8      model="SCCP: Cisco 7940">P0030801SR02</loadInformation8>
   <loadInformation7      model="SCCP: Cisco 7960">P0030801SR02</loadInformation7>
+  <loadInformation365    model="SCCP: Cisco 7921">CP7921G-1.4.6.3</loadInformation365>
+  <loadInformation484    model="SCCP: Cisco 7925">CP7925G-1.4.7.3</loadInformation484>
 
   <authenticationURL></authenticationURL>  
   <directoryURL></directoryURL>  
