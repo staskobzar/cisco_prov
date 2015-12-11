@@ -1,0 +1,2526 @@
+<AutoUpdateManifest>
+  <component name="French_Canada" upgradeAction="recommended" downgradeAction="recommended">
+    <files>
+
+ <archive name="French_Canada/CIPC_Locale.zip" path="CIPC_Locale.zip"
+       checksum="aca9c37e946776aba35715a61f52b98d"
+       modified="Sun Nov 29 22:02:24 2015"
+       size="3175222"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="AutoUpdateStrings.xml"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="9728"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="CIPCLocaleDownloaderStrings.xml"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="9756"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="ErrorReportStrings.xml"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="2919"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="ProblemReportStrings.txt"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="4924"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="SFBStrings.xml"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="23772"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="AudioTuningWizardStrings.xml"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="42095"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/helpAPI.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="413"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/index.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="674"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/pophelp.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="972"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/mappingfiles/IPCmapping_hlp.js"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="1140"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/mappingfiles/IPCmapping.hlp"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="939"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/mappingfiles/IPCmapping_hlp.js_sch.js"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="63628"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/mappingfiles/IPCmapping_hlp.js.hlp"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="960"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/mappingfiles/IPCmapping_hlp_js_hlp.js"
+       modified="Sun Nov 29 22:02:18 2015"
+       size="1113"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/bg_vert_dash.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="46"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/CiscoLogo.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="837"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/blank_minus.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="71"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/blank.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="56"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/book_c_sel.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="152"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/blank_plus.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="73"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/book_o_sel.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="169"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/book_closed.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="152"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/footer_left.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="76"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/book_open.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="173"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/gloss_over.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1125"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/gloss.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1162"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/help_doc.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="161"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/help.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="961"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/help_doc_sel.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="153"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/help_doc_mo.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="146"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/hlp_bg_nml.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="73"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/hlp_bg.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="79"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/help_over.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="961"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/hlp_lt_nml.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="97"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/hlp_bg_sel.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="56"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/hlp_lt.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="104"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/hlp_rt_nml.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="97"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/hlp_lt_sel.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="78"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/hlp_rt.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="103"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/img_vert_green.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="278"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/hlp_rt_sel.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="79"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/jointop.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="63"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/join.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="67"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/lgo_cisco.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1282"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/joinbottom.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="64"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/main.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1005"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/line.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="64"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/minusonly.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="75"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/main_over.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="994"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/minus.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="76"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/minusbottom.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="76"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/plusbottom.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="76"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/minustop.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="75"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/pdf.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="939"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/pdf_over.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="935"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/plus.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="77"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/search_over.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1070"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/plusonly.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="75"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/plustop.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="76"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/search.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1079"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/spacer.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="43"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/graphics/vert_top.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="134"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/search/ipcmapping_sch.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="51493"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/search/PreSearch.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="6327"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/search/searchtips.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="5195"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/search/searchcode.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="9881"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/helpAPI.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="413"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/index.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="674"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/pophelp.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="972"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/mappingfiles/IPCmapping_hlp.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1140"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/IPCmapping_sch.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="85897"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan09.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="6356"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/catalog.css"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="15871"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/IPCmapping_hlp.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1140"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/document.css"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="770"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/advaudio.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/index.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="2383"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/config.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="2519"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/expand.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="3750"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/indexList.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="149213"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/indexsch.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="13115"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/indexta.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="2461"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugdev1.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="3565"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugdev3.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="8627"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugdev2.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="2578"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugdev5.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="4899"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugdev4.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="7139"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/page.js"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1980"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugdev6.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="8845"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcuggs2.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="3701"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcuggs1.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="4910"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcuggs4.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="7982"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcuggs3.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="5381"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcuggs6.html"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="5257"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcuggs5.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5337"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcuggs8.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7795"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcuggs7.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8976"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan01.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2856"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcuggs9.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5254"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan03.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="23120"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan02.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4407"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan05.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="9524"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan04.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4045"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan06.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5556"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan07.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="6974"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan27.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3632"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan11.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7116"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan13.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8257"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan15.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3740"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan17.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5993"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan19.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5103"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan21.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4439"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan23.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="10501"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan08.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4121"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan10.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4164"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan12.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4681"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan14.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7565"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan16.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4153"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan18.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3575"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan20.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4657"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan22.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5727"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan24.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5093"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan25.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4436"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan26.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5743"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt10.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8892"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan29.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5450"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan31.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="6296"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan28.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8022"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan33.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5418"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan30.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3346"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan35.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7857"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan32.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4433"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt02.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5152"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcughan34.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5866"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt01.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4539"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt03.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5927"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt05.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8197"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt04.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8003"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt07.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="6041"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt06.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="10049"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt09.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="10706"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugopt08.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="9473"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov01.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3062"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset01.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3123"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov03.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3095"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov02.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="10560"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov05.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7595"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov04.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="16412"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov06.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3587"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov08.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8115"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov07.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8534"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov09.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7286"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov11.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4261"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov13.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3787"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov15.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="13894"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov10.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3667"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov12.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4615"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov14.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4406"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov16.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5829"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugts3.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="21779"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset03.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5054"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset05.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4414"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset07.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7542"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset09.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="6816"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset11.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5534"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugov17.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7399"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset02.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4366"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset04.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7373"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset06.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3439"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset08.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="6057"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset10.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4150"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset13.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5113"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset15.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="6864"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugts1.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3127"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugts4.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4267"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugts6.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7183"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset12.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5662"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset14.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4548"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugvm2.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="6466"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugset16.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3750"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugvm4.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3684"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugts2.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="13032"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugvm6.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="14812"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugts5.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3394"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugvm1.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3084"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugvm3.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="11438"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugvm5.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="6252"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugvm8.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="7588"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/prefaudio.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/prefnetwrk.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/qsearch.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2423"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/ipcugvm7.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5057"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/netaudio.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/prefdirs.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/prefuser.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/tocNodes.js"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="12511"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/105031.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="29734"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/105079as.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="902"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/105780.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="2602"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/105781fy.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="5034"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/105782fz.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="2401"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113661.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="841"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113687.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="929"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113688.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="859"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113689.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="897"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113690.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="862"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113690ao.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="832"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/99920.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="906"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113693at.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="919"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113691.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="923"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/105079.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="918"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/105079ef.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="918"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/105781.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="4943"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/105782.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="2378"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113630.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="809"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113681.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="905"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113687ar.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="929"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113688aq.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="859"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113689ap.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="897"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113690an.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="833"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113690au.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="832"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113693.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="889"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113693ee.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="889"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113703dz.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="861"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/120781.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="15540"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113703.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="861"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/113703ec.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="861"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/140189.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="904"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/140189dy.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="849"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/140189eb.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="849"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/140190dz.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="875"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/140191.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="887"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/181091.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="870"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/140190.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="875"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/181096.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="904"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/140190ea.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="875"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/181521ed.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="919"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/141209.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="29052"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/96526.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1181"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/181094.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="877"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/99911.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="887"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/181521.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="919"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/99924.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="804"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/181994.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="942"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/99987.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="921"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/96540.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="1309"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/expanded.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="52"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/99921.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="937"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/99925.jpg"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="815"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/output/images/collapse.gif"
+       modified="Sun Nov 29 22:02:19 2015"
+       size="53"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/help.css"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1909"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/FavEnter.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5884"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/IndexEnter.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8136"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/LeftNavFav.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="693"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/ContentFrameSet.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="723"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/FavList.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="874"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/IndexList.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2792"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/LeftNavFrameSet.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="576"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/LeftNavIndex.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="701"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/LeftNavTop.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="9280"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/SearchBar.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="5911"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/bdetect.js"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="800"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/ftiens4.js"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="35639"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/iepdf.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="909"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/searchcode.js"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="8570"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/tocEnter.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1227"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/LeftNavToc.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="572"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/ua.js"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="4277"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/LowerFrameSet.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="881"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/ToolbarFrame.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="11011"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/con_utils.js"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="3189"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/search_results.htm"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="740"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/tocFrame.html"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2066"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/style.css"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2711"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/toc_utils.js"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="2622"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/utilsV4.js"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1932"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/ToolbarGradient3px.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="187"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/ToolbarGradient.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="161"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/button_left.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="300"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/back_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="233"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/button_tile.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="290"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/button_right.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="298"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/open_new_win_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1239"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/feedback_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1200"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/forward_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="337"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/ftv2blank.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="135"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/ftv2doc.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="916"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/ftv2folderclosed.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="968"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/ftv2folderopen.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="979"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/glossary_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1224"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/hide_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="659"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/nblank.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="91"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/next_arrow.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="55"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/sblank.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="807"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/open_new_win16.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="546"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabLeftActiveContent.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="282"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/previous_arrow.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="55"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/print_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1235"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/resize_bg.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="63"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/show_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="456"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabAreaBg.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="45"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabBgActiveDark.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="140"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabBgNonActive.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="147"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabLeftNonActiveAdjacent.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="162"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabLeftActiveDark.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="102"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabLeftNonActive.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="177"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabRightNonActiveAdjacent.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="162"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabLeftNonActiveContent.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="177"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabLeftNonActiveLeftmost.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="181"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabRightActiveDark.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="101"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabRightNonActive.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="180"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/viewpdf_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1279"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/help/shared/images/tabspacer.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="58"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/Content.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2399"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/FavEnter.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="5884"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/LeftNavFav.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="693"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/WHnonIE4.css"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4387"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/ContentFrameSet.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="723"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/LeftNavIndex.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="701"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/IndexEnter.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="8136"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/LeftNavToc.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="572"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/FavList.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="874"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/IndexList.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2792"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/LowerFrameSet.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="881"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/LeftNavFrameSet.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="576"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/ToolbarFrame.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="11011"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/LeftNavTOC.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="522"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/bdetect.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="800"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/LeftNavTop.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="9280"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/content.css"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4353"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/SearchBar.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="5911"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/footer.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="646"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/ban.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="626"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/global.css"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4889"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/con_utils.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3189"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/global_ns_sol.css"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4062"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/content_ns.css"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4387"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/ftiens4.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="35639"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/help_tips.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="5010"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/global_ns.css"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4476"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/indexframe.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="871"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/help.css"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1909"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/menu.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1673"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/iepdf.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="909"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/nav.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3273"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/leftframe.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1014"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/ref_help.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="7352"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/menu.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1380"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/pdf_gloss.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="274"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/search_results.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="740"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/searchframe.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="457"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/style_1.css"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4353"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/tocEnter.htm"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1227"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/toc_utils.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2622"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/tree.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="22622"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/utils.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="6642"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/sp.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="418"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/searchcode.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="8570"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/style.css"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2711"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/sync.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2050"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/tocFrame.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2066"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/toolbar.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1277"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/ua.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4277"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/utilsV4.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1932"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/ToolbarGradient3px.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="187"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/ToolbarGradient.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="161"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/button_left.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="300"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/back_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="233"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/button_tile.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="290"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/button_right.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="298"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/open_new_win_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1239"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/feedback_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="1200"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/forward_icon.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="337"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/ftv2blank.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="135"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/ftv2doc.gif"
+       modified="Sun Nov 29 22:02:20 2015"
+       size="916"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/ftv2folderclosed.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="968"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/ftv2folderopen.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="979"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/glossary_icon.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1224"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/hide_icon.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="659"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/next_arrow.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="55"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/nblank.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="91"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/off_tab_bevel-1.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="169"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/sblank.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="807"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/off_tab_bevel1.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="300"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/off_tab_bevel0.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="297"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/off_tab_left.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="69"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/off_tab_bg.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="147"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/on_tab_bevel_end.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="86"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/on_tab_bevel0.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="96"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/on_tab_left.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="70"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/on_tab_bg.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="65"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabLeftActiveContent.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="282"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/open_new_win16.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="546"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/print_icon.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1235"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/previous_arrow.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="55"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/show_icon.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="456"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/resize_bg.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="63"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabBgActiveDark.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="140"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabAreaBg.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="45"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabLeftNonActiveAdjacent.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="162"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabBgNonActive.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="147"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabLeftNonActive.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="177"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabLeftActiveDark.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="102"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabLeftNonActiveContent.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="177"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabRightNonActiveAdjacent.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="162"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabRightActiveDark.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="101"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabLeftNonActiveLeftmost.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="181"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/viewPDF_icon.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1279"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabRightNonActive.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="180"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/tabspacer.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="58"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/shared/images/viewpdf_icon.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1279"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/IPCmapping.hlp"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="939"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/CiscoLogo.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="837"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/IPCmapping_hlp.js.hlp"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="960"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/IPCmapping_hlp.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1140"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/indexta.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2461"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/IPCmapping_hlp.js_sch.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="63628"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/IPCmapping_sch.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="85913"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/banner.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4506"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/advaudio.html"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/config.js"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2519"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/catalog.css"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="15871"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/expand.js"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3750"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/document.css"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="770"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ind.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="82778"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/index.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2383"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/indexsch.js"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="13115"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/indexList.js"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="149213"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcinsIX.hhk"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="88929"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugdev2.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2578"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc1.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2015"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc110.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5045"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc12.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2160"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc14.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3403"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc111.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3818"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc16.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1337"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc13.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3838"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc18.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3326"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc15.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5359"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc2.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1457"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc211.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3002"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc17.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3161"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc19.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7242"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc210.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1645"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc212.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1438"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc23.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="13081"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc22.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2378"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc25.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1866"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc24.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4958"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc26.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4500"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/tocNodes.js"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="12511"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc28.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3564"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc27.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5676"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc3.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1408"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc29.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1889"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc311.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4059"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc310.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4021"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc313.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3131"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc312.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1991"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc315.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3404"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc314.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2819"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc317.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3142"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc316.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2457"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc32.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2552"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc34.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4985"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc33.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="10929"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc35.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3732"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc37.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2590"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc38.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2845"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc36.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3046"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/page.js"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1980"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc39.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3621"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc4.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1748"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc410.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5384"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc411.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7667"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc413.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5431"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc412.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2905"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc414.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2618"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc42.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2382"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc44.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4358"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc46.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3028"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc48.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4204"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc5.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1865"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc53.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4733"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc43.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3237"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc54.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3251"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc45.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2470"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc56.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1248"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc47.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1832"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc49.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4389"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc52.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6249"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuser.pdf"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1428705"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc55.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3536"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc6.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1473"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc63.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4979"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc62.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3981"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc64.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2680"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc7.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1813"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc65.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4900"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc73.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3709"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipc72.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2442"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF102.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2216"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF101.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2058"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF104.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1829"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF103.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6213"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF106.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5628"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF105.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3554"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF108.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3291"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF107.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1326"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF110.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7865"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF109.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3436"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF112.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3899"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF111.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6178"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF202.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3007"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF201.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1488"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF204.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4906"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF203.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="14924"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF205.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1909"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF206.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5585"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF207.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6796"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF208.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4733"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF209.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2399"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF210.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1999"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF211.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4445"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF212.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2263"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF214.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5211"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF213.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2677"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF216.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1673"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF215.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="8938"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF302.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2527"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF301.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1409"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF304.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6538"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF303.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="20224"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF305.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4054"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF307.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2638"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF306.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3254"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF309.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4197"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF308.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4668"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF311.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2001"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF310.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4702"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF313.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3011"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF312.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3295"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF314.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1155"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF316.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7911"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF315.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3921"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF317.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3510"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF318.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2540"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF401.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1778"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF319.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3304"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF403.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3342"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF405.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2803"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF402.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2583"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF407.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1903"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF404.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4521"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF409.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4933"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF406.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5428"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF411.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="8138"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF408.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5886"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF413.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7306"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF410.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6190"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF412.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3021"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF414.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2714"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF51.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1923"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF53.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4942"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF52.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6488"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF54.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3385"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF55.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3690"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF61.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1465"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF63.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5873"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF65.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5068"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF72.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2574"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF56.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1243"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcFapp1.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1806"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF62.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3429"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF64.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2776"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF71.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3428"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcF73.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5206"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcFapp3.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="16891"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcapp2.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="9047"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcinsTOC.hhc"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="15885"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcFapp2.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="9586"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan05.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="9524"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcapp.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="1743"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugdev4.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7139"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcapp3.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="14490"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugdev6.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="8845"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugdev1.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3565"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuggs2.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3701"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugdev3.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="8627"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuggs4.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7982"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugdev5.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4899"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuggs1.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4910"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuggs6.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5257"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuggs3.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5381"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuggs5.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5337"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuggs7.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="8976"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuggs8.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7795"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan01.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="2856"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan03.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="23120"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcuggs9.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5254"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan02.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4407"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan04.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4045"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan23.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="10501"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan06.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5556"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan07.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6974"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan09.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6356"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan11.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7116"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan13.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="8257"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan08.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4121"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan10.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4164"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan12.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4681"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan14.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7564"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan15.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3740"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan17.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5993"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan16.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4153"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan19.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5103"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan18.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3575"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan20.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4657"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan21.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4439"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan22.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5727"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt05.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="8197"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan25.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4436"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan24.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5093"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan26.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5746"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan27.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3632"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan29.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5450"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan28.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="8002"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan30.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="3346"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan32.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="4433"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan34.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5877"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan36.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7347"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan31.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="6296"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt02.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5152"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan33.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="5418"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt04.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="8003"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcughan35.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="7859"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt06.html"
+       modified="Sun Nov 29 22:02:22 2015"
+       size="10049"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt01.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="4539"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt03.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="5927"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov13.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3787"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt07.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="6041"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt08.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="9473"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt09.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="10706"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugopt10.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="8892"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov01.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3062"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov03.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3095"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov05.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="7597"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov02.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="10560"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov04.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="16412"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov06.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3587"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov08.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="8115"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov07.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="8518"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov10.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3667"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov09.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="7286"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov12.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="4615"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov11.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="4261"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov14.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="4406"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset14.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="4548"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov16.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="5829"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov15.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="13894"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset01.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3123"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugov17.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="7399"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset02.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="4366"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset04.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="7373"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset06.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3439"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset08.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="6057"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset03.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="5054"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset05.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="4414"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset07.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="7542"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset09.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="6816"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset10.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="4150"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset11.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="5534"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset13.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="5113"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset15.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="6864"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugts1.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3127"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugts3.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="21779"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugts5.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3394"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugvm1.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3084"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugvm3.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="11438"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugvm5.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="6252"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugvm7.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="5057"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/netaudio.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/prefnetwrk.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/qsearch.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="2423"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset12.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="5662"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/prefaudio.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugset16.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3750"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugts2.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="13032"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugts4.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="4267"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugts6.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="7181"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugvm2.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="6466"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugvm4.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="3684"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugvm6.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="14812"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/ipcugvm8.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="7588"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/prefdirs.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/prefuser.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="2424"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/toc.html"
+       modified="Sun Nov 29 22:02:23 2015"
+       size="19675"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105031high.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="56511"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105031.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="74165"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113686.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1137"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105079as.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="902"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105002.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1772"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105079eh.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="918"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105031.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="29734"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105189.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3747"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105079.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="918"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105197.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3540"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105079ef.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="918"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105204.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1928"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105089.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1007"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105250.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="65673"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105190.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="7230"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105202.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1556"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105249.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="45336"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105251.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="57947"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105253.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="46981"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105272.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1850"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105274.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1857"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105276.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1569"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105278.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1272"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105764.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1420"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105252.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="67700"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105254.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="63893"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105273.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1846"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105275.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1749"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105277.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1622"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105763.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2678"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105765.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3238"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105767.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3236"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105780.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3448"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105780.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2602"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105781.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4943"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105781.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="7045"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105781fy.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="5034"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105781fz.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="5034"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105782.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3480"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105782.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2378"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105782fz.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2401"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/105782ga.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2401"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113630.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1022"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113661.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1087"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113630.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="809"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113681.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1134"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113661.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="841"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113703eb.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="861"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113681.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="905"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113687.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1104"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113687ar.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="929"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113688.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="859"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113689.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1079"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113687.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="929"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113688.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1080"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113688aq.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="859"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113689.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="897"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113689ap.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="897"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113690.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="862"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113690ao.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="832"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113691.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1100"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113692.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1078"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113693at.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="919"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113693eg.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="889"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113690.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1041"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113703.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="861"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113690an.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="833"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/141209high.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="50462"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113690au.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="832"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113703ee.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="861"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113691.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="923"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113693.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="889"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113693ee.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="889"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113703.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1071"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113703dz.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="861"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113703ec.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="861"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/113707.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1010"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/120781.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="43281"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140189.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="904"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140189ea.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="849"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/120781.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="15540"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140189dy.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="849"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140189eb.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="849"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140189ed.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="849"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140190dz.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="875"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140190ec.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="875"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/141209.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="61685"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140190.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="875"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/99274.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3338"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140190ea.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="875"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/140191.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="887"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/141209.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="29052"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/181091.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="870"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/181096.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="904"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/181521ed.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="919"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/181994.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="942"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/141614.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2274"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/181094.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="877"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96526.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1181"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/181521.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="919"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96527.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3092"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/181521ef.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="919"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96528.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2913"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96526.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2634"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96526a.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1619"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96527a.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1502"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96529.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1462"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96530.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2905"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96531a.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1778"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96531.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2890"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96532.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2953"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96532a.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1769"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96533a.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1715"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96534a.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1729"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96538.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1902"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96540.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3362"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96541.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3122"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/ipcF20317.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="4810"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96533.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3156"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96534.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2905"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96536.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="13939"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96539.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3030"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96540.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1309"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/96541a.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1534"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/99555.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="3187"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/99555a.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="1748"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/99920.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="906"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/99924.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="804"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/99911.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="887"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/99921.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="937"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/99925.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="815"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/collapse.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="53"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/99987.jpg"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="921"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/ipc220.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="45063"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/expanded.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="52"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/ipc2a2.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="51477"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/ipc2a.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="152536"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/ipcF40205.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2953"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/ipcF40206.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2953"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/ipcF40504.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2953"/>
+   <file archive="French_Canada/CIPC_Locale.zip" path="help/output/images/ipcF40403.gif"
+       modified="Sun Nov 29 22:02:21 2015"
+       size="2953"/>
+
+    </files>
+  </component>
+</AutoUpdateManifest>
