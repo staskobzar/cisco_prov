@@ -23,7 +23,7 @@
               <sipPort>5060</sipPort>
               <securedSipPort>5061</securedSipPort>
             </ports>
-            <processNodeName>###HOSTNAME_OR_IP###</processNodeName>
+            <processNodeName>###PROXY_IP###</processNodeName>
           </callManager>
         </member>
       </members>
@@ -31,12 +31,12 @@
   </devicePool>
   <sipProfile>
     <sipProxies>
-      <backupProxy>USECALLMANAGER</backupProxy>
-      <backupProxyPort>5060</backupProxyPort>
-      <emergencyProxy>USECALLMANAGER</emergencyProxy>
-      <emergencyProxyPort>5060</emergencyProxyPort>
-      <outboundProxy>USECALLMANAGER</outboundProxy>
-      <outboundProxyPort>5060</outboundProxyPort>
+      <backupProxy></backupProxy>
+      <backupProxyPort></backupProxyPort>
+      <emergencyProxy></emergencyProxy>
+      <emergencyProxyPort></emergencyProxyPort>
+      <outboundProxy></outboundProxy>
+      <outboundProxyPort></outboundProxyPort>
       <registerWithProxy>true</registerWithProxy>
     </sipProxies>
     <sipCallFeatures>
@@ -85,7 +85,7 @@
     <kpml>3</kpml>
     <natEnabled>true</natEnabled>
     <natAddress></natAddress>
-    <phoneLabel>phoneLabel</phoneLabel>
+    <phoneLabel>###PHONE_LABEL###</phoneLabel>
     <stutterMsgWaiting>0</stutterMsgWaiting>
     <callStats>true</callStats>
     <silentPeriodBetweenCallWaitingBursts>10</silentPeriodBetweenCallWaitingBursts>
@@ -96,8 +96,8 @@
     <sipLines>
       <line button="1">
         <featureID>9</featureID>
-        <featureLabel>###LINE_NAME###</featureLabel>
-        <proxy>USECALLMANAGER</proxy>
+        <featureLabel>###LABEL###</featureLabel>
+        <proxy>###DOMAIN###</proxy>
         <port>5060</port>
         <name>###USERNAME###</name>
         <displayName>###USERNAME###</displayName>
@@ -137,7 +137,7 @@
     <backgroundImageAccess>true</backgroundImageAccess>
     <callLogBlfEnabled>1</callLogBlfEnabled>
   </commonProfile>
-  <loadInformation>SIP69xx.9-4-1-3SR2</loadInformation>
+  <loadInformation>SIP45.8-5-4S</loadInformation>
   <vendorConfig>
     <disableSpeaker>false</disableSpeaker>
     <disableSpeakerAndHeadset>false</disableSpeakerAndHeadset>
@@ -159,7 +159,7 @@
     <version></version>
   </networkLocaleInfo>
   <userLocale>
-    <name>French_Canada-9.3.4</name>
+    <name>French_France-8.5.3</name>
     <uid>2</uid>
     <langCode>fr</langCode>
     <version></version>

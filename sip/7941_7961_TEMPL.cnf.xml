@@ -92,7 +92,7 @@
     <disableLocalSpeedDialConfig>false</disableLocalSpeedDialConfig>
     <startMediaPort>16384</startMediaPort>
     <stopMediaPort>32766</stopMediaPort>
-    <organizationTopLevelDomain>campus.voip.etsmtl.ca</organizationTopLevelDomain>
+    <organizationTopLevelDomain>###DOMAIN###</organizationTopLevelDomain>
     <sipLines>
       <line button="1">
         <featureID>9</featureID>
