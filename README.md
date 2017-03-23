@@ -32,6 +32,28 @@ template.
 Default user locale: French_France.
 Default network locale: United_States.
 
+## Summary table
+Here a summary of my efforts to make provisioning work per model and firmware (SIP/SCCP).
+Alone with localization (*l10n*) configuration status. In my case I was using French l10n.
+
+| Model | SCCP firmware | SCCP l10n | SIP firmware | SIP l10n |
+| ----- | :-----------: | :-------: | :----------: | :------: |
+| 7910 | `OK` | `OK` | **N/A** | **N/A** |
+| 7911 | `OK` | `OK` | `OK` | `OK` |
+| 7912 | `OK` | `OK` | `OK` | **FAIL** |
+| 6921 | `OK` | `OK` | **FAIL** | `OK` |
+| 7941 | `OK` | `OK` | `OK` | `OK` |
+| 7961 | `OK` | `OK` | `OK` | `OK` |
+| 7942 | `OK` | `OK` | `OK` | `OK` |
+| 7962 | `OK` | `OK` | `OK` | `OK` |
+| 7940 | `OK` | `OK` | `OK` | **FAIL** |
+| 7960 | `OK` | `OK` | `OK` | **FAIL** |
+| 7921 | **N/A** | **N/A** | `OK` | `OK` |
+| 7925 | **N/A** | **N/A** | `OK` | `OK` |
+| 7821 | **N/A** | **N/A** | `OK` | `OK` |
+| 7945 | `OK` | `OK` | `OK` | `OK` |
+| 7965 | `OK` | `OK` | `OK` | `OK` |
+
 ## Localization
 
 For more information how to install and setup l10n for different languages see check another project we have:
